@@ -37,7 +37,7 @@ Yup.  Turns out, not only did DHL manage to get the package to me a day early (t
 
 Meanwhile, Canada Post can't even be bothered to ring a door intercom.  Building office closed?  Too bad, no package for you.  Hope you like walking three kilometres in the snow to get your stuff.
 
-So to the Canada Post worker that "attempted" delivery, I say: You should be ashamed of yourself.  You just got beat out by a DHL worker who *wasn't even supposed to be here today.*  Honestly, if you're going to be that lazy, I would have preferred you just call it a day and deliver it tomorrow, when the building office is open and you can thus actually be bothered to deliver something *other* than a sheet of paper telling me to go fuck myself.
+And so I say, dear Canada Post: You should be ashamed of yourselves.  You just got beat out by a low-cost international courier who *wasn't even supposed to be here today.*  Honestly, if you're going to be that lazy and/or understaffed, I would have preferred you just call it a day and deliver it tomorrow, when the building office is open and you can thus actually be bothered to deliver something *other* than a sheet of paper telling me to go fuck myself.
 
 But hey, I've got another delivery tomorrow that you'll probably also find a way to botch … so at least I only have to make **one** trip to the post office, right?
 
