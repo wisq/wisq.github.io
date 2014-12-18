@@ -47,7 +47,7 @@ It's been so long since I installed a game from a disc that I wasn't even sure i
 
 Now, I love Steam.  I buy pretty much everything on Steam.  It's handy; it's flexible; it's social.  *Rocksmith* was my first non-Steam game in a long time.  I was a little bummed that I wouldn't be running it from the convenience of Steam, but it came with a special cable, and nobody's yet figured out how to sell physical cables as digital downloads.
 
-So, as the installer loaded, I pulled up Steam, searched for *Rocksmith 2014*, and added it to my wishlist so that Steam would notify me if it went on sale.  After all, the holiday sale is coming up, and if they happened to offer *Rocksmith* for a deep discount — say, 75% or deeper — paying a few extra dollars would be worth it for the convenience, right?
+So, as the installer loaded, I pulled up Steam, searched for *Rocksmith 2014*, and added it to my wishlist so that Steam would notify me if it went on sale.  After all, the holiday sale is coming up, and I figured that if they happened to offer *Rocksmith* for a deep discount — say, 75% or deeper — I honestly wouldn't mind buying it again, purely for the sake of convenience.
 
 I start to click through the *Rocksmith* installer, and it asks me for the code printed on the insert.  How quaint!  I grab the box and start typing in the code.
 
