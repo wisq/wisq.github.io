@@ -9,7 +9,7 @@ header-img: "img/2014/12/canada-post.jpg"
 
 So I figured it was finally time to learn to play this guitar that's been collecting dust next to me for years now.  To help me, I decided to buy two teaching games: *Rocksmith 2014* (PC) and *BandFuse: Rock Legends* (PlayStation 3).
 
-Now, I don't actually have a PlayStation 3 yet (long story), and I was in much more of a rush to get *Rocksmith*.  So after some quick cross-border price comparisons — a fact of life for Canadian online shopping — I ordered *Rocksmith* from Amazon.com (priority courier international shipping) and *BandFuse* from Amazon.ca (free domestic shipping).
+Now, I don't actually have a PlayStation 3 yet (long story), and I was in much more of a rush to get *Rocksmith*.  So after some quick cross-border price comparisons — a fact of life for Canadian online shopping — I ordered *Rocksmith* from Amazon.com (priority courier international shipping) and *BandFuse* from Amazon.ca (free shipping; don't care how long).
 
 Both packages were ordered late Monday night and shipped on Tuesday, with *Rocksmith* set to arrive via DHL courier on Thursday, and *BandFuse* coming via free Canada Post on … Wednesday?  Free *next-day* shipping?  Yeah, I guess there really *are* some perks to using Amazon.ca, despite the high prices.
 
@@ -47,13 +47,13 @@ It's been so long since I installed a game from a disc that I wasn't even sure i
 
 Now, I love Steam.  I buy pretty much everything on Steam.  It's handy; it's flexible; it's social.  *Rocksmith* was my first non-Steam game in a long time.  I was a little bummed that I wouldn't be running it from the convenience of Steam, but it came with a special cable, and nobody's yet figured out how to sell physical cables as digital downloads.
 
-So, as the installer loaded, I pulled up Steam, searched for *Rocksmith 2014*, and added it to my wishlist so that Steam would notify me if it went on sale.  After all, the holiday sale is coming up, and I figured that if they happened to offer *Rocksmith* for a deep discount — say, 75% or deeper — I honestly wouldn't mind buying it again, purely for the sake of convenience.
+So, as the installer loaded, I pulled up Steam, searched for *Rocksmith 2014*, and added it to my wishlist so that Steam would notify me if it went on sale.  After all, the holiday sale is coming up, and I figured that if they happened to offer *Rocksmith* for a deep discount — say, 75% or deeper — I honestly wouldn't mind buying it again, purely for the sake of convenience.  That's just how I roll.
 
 I start to click through the *Rocksmith* installer, and it asks me for the code printed on the insert.  How quaint!  I grab the box and start typing in the code.
 
 But wait … that colour scheme … that message … isn't that … ?
 
-Yup.  The installer is a Steam "install from disc" launcher.  The code on the insert?  A Steam product activation key.  *Hell yeah.*
+Yup.  The installer is a Steam "install from disc" launcher.  The code on the insert?  A Steam product activation key.  *Hell yeah!*  Or at least, that's what I would've said, if I weren't laughing so hard.
 
 And that's how I ended up wishlisting a Steam game I already owned and *just didn't know it yet.*
 
