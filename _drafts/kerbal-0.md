@@ -29,11 +29,11 @@ Once you've done these, you're ready to move on to the core game.
 
 KSP offers three modes of gameplay: Sandbox, Science, and Career.
 
-In Sandbox mode, every part is available to you from the beginning, and there are no goals — or more specifically, you set your own goals.  I generally use this to test out mods, but it can also be useful for beginners to get a feel for building rockets and getting them into orbit.  However, the sheer number of parts can be a bit overwhelming to a new player, so you might be better off in another mode.
+In Sandbox mode, every part is available to you from the beginning, and there are no goals — or more specifically, you set your own goals.  I generally use this to test out mods, but it can also be useful for beginners to get a feel for building rockets and getting them into orbit.  However, the sheer number of parts can be a bit overwhelming to a new player, so you might be better off in another mode.
 
 In Career mode, you start with a limited number of parts and need to work your way up to more, by researching them.  You also need to pay money for every ship you launch.  To help you, there are contracts that give you Funds (so you can launch more things), Science (so you can launch *better* things), and Reputation (so you can do better contracts and get more Funds and Science).
 
-Science mode is just Career mode without the money, reputation, or contracts.  The absence of Funds can make it easier than Career mode in some ways, but the lack of contracts means you have no "renewable" way to get more Science — if you've researched everything nearby, you have to go further out to progress, and that can be hard if you've made the wrong research choices.  I don't recommend it for beginners because of this.
+Science mode is just Career mode without the money, reputation, or contracts.  The absence of Funds can make it easier than Career mode in some ways, but the lack of contracts means you have no "renewable" way to get more Science — if you've researched everything nearby, you have to go further out to progress, and that can be hard if you've made the wrong research choices.  I don't recommend it for beginners because of this.
 
 In all these modes, you'll start out looking down at your Kerbal Space Centre.  Key buildings here are the *Vehicle Assembly Building* (VAB), where you build rockets; the *Spaceplane Hangar* (SPH), where you build planes; and the *Tracking Station*, where you monitor missions in progress (and other things like asteroids).
 
@@ -51,7 +51,7 @@ So, what's the big deal?  Well, in my opinion (and many other players), they sev
 
 Whether you take advantage of this or not is completely up to you.  If you enjoy the stock Science balance, then avoid this Strategy like the plague.  If you want a faster progression, or find yourself stuck with no Science to progress, maybe enact it at a small percentage (5% or 10%) and go from there.  And if you just want to breeze through the tech tree, go ahead and bump this up to 30% or even 50%.
 
-Whatever you choose, it pays to be informed — I've seen players complain that their progression was ruined by this (and "ruined" one game myself using 50%), while other players appreciate the ability to choose their own game balance.
+Whatever you choose, it pays to be informed — I've seen players complain that their progression was ruined by this (and "ruined" one game myself using 50%), while other players appreciate the ability to choose their own game balance.
 
 ### Reverting & Loading
 
@@ -67,7 +67,7 @@ Once you've got a feel for flying rockets around and want to understand what's a
 
 **Velocity** (v) is your speed.  It's measured in metres per second (m/s).  However, there's no one "true" velocity in space, so you always measure velocity compared to something else.  In KSP, you measure it either *surface velocity* (how fast you're moving over land), *orbital velocity* (how fast you're moving around something), or *target velocity* (compared to your selected target's velocity).
 
-It's worth noting that even if you have zero surface velocity, you still have some orbital velocity, because the surface is spinning — this is why it's easiest to launch into a west-to-east orbit (out towards the water), because you get some orbital velocity for free!
+It's worth noting that even if you have zero surface velocity, you still have some orbital velocity, because the surface is spinning — this is why it's easiest to launch into a west-to-east orbit (out towards the water), because you get some orbital velocity for free!
 
 **Acceleration** is your change in velocity over time.  It's measured in metres per second per second (m/s&sup2;), which is to say, how much your velocity will change (in m/s) every second.  So if your velocity is 0 m/s, and you accelerate at 10 m/s&sup2; for three seconds, you'll now be travelling at 30 m/s.
 
@@ -79,7 +79,7 @@ To get the acceleration of your ship, add up the thrust of all active engines, t
 
 **Delta-v** (&Delta;v) is the total effort needed to get from one trajectory to another.  It's measured in m/s, same as velocity, since it's just the difference between your target velocity and your current velocity.  To perform an orbital manoeuvre, or to get into orbit in the first place, you need a certain amount of delta-v.
 
-A rocket's delta-v is partly a function of its "wet" (fueled) mass versus "dry" (empty) mass.  The key here is that delta-v is independent of actual mass — if you scaled a rocket up or down, fuel and all, it would actually have the exact same delta-v, since it would have the same wet-to-dry ratio.  (The difference is, if you add a few tonnes of payload, the bigger rocket will lose a lot less delta-v than the smaller rocket, since it's more massive and the payload has less of an impact on the wet-to-dry ratio.)
+A rocket's delta-v is partly a function of its "wet" (fueled) mass versus "dry" (empty) mass.  The key here is that delta-v is independent of actual mass — if you scaled a rocket up or down, fuel and all, it would actually have the exact same delta-v, since it would have the same wet-to-dry ratio.  (The difference is, if you add a few tonnes of payload, the bigger rocket will lose a lot less delta-v than the smaller rocket, since it's more massive and the payload has less of an impact on the wet-to-dry ratio.)
 
 There's a formula to calculate your ship's total delta-v based on your engine's <i>I</i><sub>sp</sub> and your ship's wet versus dry mass.  If you're interested, check out the [Advanced Rocket Design][adv-rocket] tutorial on the KSP Wiki.  Personally, I use mods that show me my total delta-v as I build, since it's a bit silly to have to constantly recalculate it by hand.
 
@@ -93,9 +93,9 @@ The obvious reason is to reduce dead weight (i.e. dry mass).  Rocket fuel tanks 
 
 The less obvious reason is that you generally want different sorts of engines for when you're taking off versus when you're in space.
 
-During takeoff, thrust is critical: You need to overcome the basic 9.8 m/s&sup2; of downward force produced by gravity, and you need to achieve orbital speed as quickly as possible so that you're "free" from gravity  — or specifically, from its detrimental tendency to crash you into the ground.
+During takeoff, thrust is critical: You need to overcome the basic 9.8 m/s&sup2; of downward force produced by gravity, and you need to achieve orbital speed as quickly as possible so that you're "free" from gravity — or specifically, from its detrimental tendency to crash you into the ground.
 
-However, once you're in orbit, thrust is no longer a major concern — plus you're a lot less massive, so you want an efficient, low-thrust, *low-mass* engine instead.  In particular, your engine is now a major part of your remaining mass — the lighter the engine, the higher your remaining delta-v.
+However, once you're in orbit, thrust is no longer a major concern — plus you're a lot less massive, so you want an efficient, low-thrust, *low-mass* engine instead.  In particular, your engine is now a major part of your remaining mass — the lighter the engine, the higher your remaining delta-v.
 
 The disadvantage of staging is that you're carrying extra mass for engines that aren't contributing at a given moment.  But the savings from staging are so great that this is a very minor concern.
 
@@ -105,7 +105,9 @@ We tend to talk about space being "zero gravity" or "microgravity", but the real
 
 In Douglas Adams' *The Hitchhiker's Guide to the Galaxy* series, he describes the secret to flying as "learning how to throw yourself at the ground and miss".  In fact, this is basically what happens when you orbit.  While in orbit, you have such a huge sideways velocity that, rather than falling back to the surface, you actually *miss* the planet and go *around* it instead.  (Adams was likely referring to this when he wrote his books, even if he used it much more literally for comic effect.)
 
-The result is that you spin around the planet like a ball on a rope.  But in this case, the rope is tied to you, your ship, and everything else inside it.  You're all in free-fall, so things appear "weightless" because nothing is falling any faster than anything else.  You still very much experience gravity — after all, if it wasn't for gravity, you would go flying off into deep space!
+The result is that you spin around the planet like a ball on a rope.  But in this case, the rope is tied to you, your ship, and everything else inside it.  You're all in free-fall, so things appear "weightless" because nothing is falling any faster than anything else.  You still very much experience gravity — after all, if it wasn't for gravity, you would go flying off into deep space!
+
+**Remember that getting into orbit is about going *sideways*, not *up.***  You do want to go up when you first launch, but only so that you can get free of the atmosphere.  Once you're in space (above 70km), the only thing that's going to keep you from coming back down is if you can get your sideways velocity up to about 2300 m/s or higher.
 
 When in orbit, a lot of our common notions about how to get places go out the window.  For example, getting to the Mun is *not* a case of aiming at it and firing your engines, and getting back down to Kerbin does *not* involve aiming downwards.  Rather, all space manoeuvres are about altering your orbit until it gets you to the desired place at the desired time.
 
@@ -123,7 +125,7 @@ To decrease your periapsis (e.g. to return to Kerbin), burn retrograde when you 
 
 Similarly, to head further out, you would wait until your periapsis and burn prograde.  If you do this long enough, your apoapsis will escape Kerbin's gravity altogether and you'll be in interplanetary space.
 
-Burning retrograde at your periapsis, or prograde at your apoapsis, will make your orbit more circular by decreasing your apoapsis / increasing your periapsis, respectively.  The closer these are to each other, the more circular your orbit.  Of course, if you do this enough, the two will swap places.
+Burning retrograde at your periapsis, or prograde at your apoapsis, will make your orbit more circular by decreasing your apoapsis, or increasing your periapsis, respectively.  The closer these are to each other, the more circular your orbit.  Of course, if you do this enough, the two will swap places.
 
 ## Modding
 
