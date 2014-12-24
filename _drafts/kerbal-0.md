@@ -4,7 +4,7 @@ title:      "Kerbal Space Program: Introduction"
 subtitle:   "Tips and core concepts to get you started"
 #date:       2014-12-18 10:00:00 EST
 author:     "Wisq"
-header-img: "img/home-bg.jpg"
+header-img: "img/2014/12/kerbal-1.jpg"
 ---
 
 From where I'm standing, things are looking pretty good for space exploration.  Major missions are reaching completion, new ones are being launched, NASA got *more* funding than they asked for, and public interest is at a level I don't remember since my childhood back in the 1980s.
