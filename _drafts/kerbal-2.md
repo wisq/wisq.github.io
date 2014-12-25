@@ -4,7 +4,7 @@ title:      "Kerbal Space Program: Keepin' It Real"
 subtitle:   "An introduction to KSP modding and realism"
 #date:       2014-12-18 10:00:00 EST
 author:     "Wisq"
-header-img: "img/home-bg.jpg"
+header-img: "img/2014/12/kerbal-2.jpg"
 ---
 
 Yesterday, [I introduced Kerbal Space Program][previous] and gave some tips and concepts to help get started with it.
@@ -19,13 +19,15 @@ Like *Minecraft*, KSP is a full-fledged game, and newcomers would be well advise
 
 To manage your mods, I highly recommend you grab [CKAN][ckan], a mod manager that automatically downloads and installs mods (and their dependencies) for you.  It also tracks the versions you have installed and offers to upgrade them when new versions are released.  It's the new hot thing in Kerbal modding, and it's well worth using — unzipping and installing mods gets to be a major pain once you have a dozen or more.
 
+![CKAN client](/img/2014/12/kerbal2/ckan.jpg)
+
 Using the CKAN graphical interface is pretty easy.  First, click "Refresh" to update the list of mods.  Check off the mods you want, then click "Go to changes" to see what needs doing.  Apply those changes, then launch KSP, either via CKAN or via your normal method.
 
 In the mod descriptions below, I'll be giving out links to the mods so you can get more information — but if that mod is available in CKAN, you should probably install it there instead.  It's just less fuss that way.
 
 ## Realism Mods
 
-For most games, I'm of the opinion that adding realism is generally a good thing so long as it doesn't actively harm gameplay.  Reality is complex and interesting, and adding realism usually creates some equally interesting interactions that the game designers didn't forsee, rewarding player creativity.  It also creates tricky challenges, often via injecting a bit of chaos and excitement.  And at the very least, it lets players better reason about how things will work.
+For most games, I'm of the opinion that adding realism is generally a good thing so long as it doesn't actively harm gameplay.  Reality is complex and interesting, and adding realism usually creates some equally interesting interactions that the game designers didn't foresee, rewarding player creativity.  It also creates tricky challenges, often via injecting a bit of chaos and excitement.  And at the very least, it lets players better reason about how things will work.
 
 In KSP, there's another reason to add realism: *Education!*  A lot of us enjoy playing KSP because we get to learn how spaceflight works, and using realism-enhancing mods (or even just researching what they do) can take that to the next level.
 
@@ -37,13 +39,17 @@ The stock Kerbal aerodynamic model is exceedingly primitive — parts all contr
 
 [Ferram Aerospace][FAR], or "FAR", fixes all this.  It's a complete remodelling of planetary atmospheres and flying within them.  Your ship's shape actually matters, and non-aerodynamic bits will cause trouble very quickly, e.g. by breaking off.  An ill-designed ship or plane can be completely impossible to control, flipping until it quickly breaks up.
 
-To counter this, FAR also offers diagnostic tools that help you understand what's going on with your plane, both during construction and in flight.  Pre-flight simulations give you an idea whether your plane is stable or not, and in-flight readouts let you fine-tune your flight parameters.  For example, you'll want to learn what ["max Q"][maxQ] is, and you'll feel relieved every time you pass it uneventfully (as in a real launch).
+To counter this, FAR also offers diagnostic tools that help you understand what's going on with your ship, both during construction and in flight.  Pre-flight graph-based simulations give you an idea whether your plane is stable or not, and in-flight readouts let you fine-tune your flight parameters.  For example, you'll want to learn what ["max Q"][maxQ] is, and you'll feel relieved every time you pass it uneventfully (as in a real launch).
 
-The main thing you need to know to design rockets in FAR is that you want the tail of your rocket to have more drag than the nose (so put tailfins on it), and you want the centre of mass as high (nosewards) as possible.  You want your ship to be weighted like a dart, not like a sledgehammer — if your tail is too heavy and has minimal drag, it'll try to flip around and pull you along instead.
+![FAR diagnostics](/img/2014/12/kerbal2/far-build.jpg)
 
-To launch rockets in FAR, you should completely ignore the standard Kerbal advice (ascend to 10km and then pitch down to 45º).  Turning that suddenly is guaranteed to cause problems — there should only be a few degrees difference between your nose (navball centre) and your direction of travel (prograde marker) at all times.
+The main thing you need to know to design rockets in FAR is that you want the tail of your rocket to have more drag than the nose (so put tailfins on it), and you want the centre of mass as high (nosewards) as possible.  You want your ship to be weighted like a dart, not like a sledgehammer — if your tail is too heavy and has minimal drag, it'll try to flip around and pull you along instead.
 
-Instead, I typically do a vertical launch until I clear the pad, followed *almost immediately* by pitching down to about 70º when I'm at about 300 to 400 m/s, before I have enough speed to make it unsafe.  Gravity will slowly tilt my flight path down towards the horizon, and airflow will then pull my nose down as well — but I don't fight it, because I want to be thrusting horizontally to get my orbital velocity up anyway.
+To launch rockets in FAR, you should completely ignore the standard Kerbal advice (ascend to 10km and then pitch down to 45º).  Turning that suddenly is guaranteed to cause problems — there should only be a few degrees difference between your nose (navball centre) and your direction of travel (prograde marker) at all times.
+
+Instead, I typically do a vertical launch until I clear the pad, followed *almost immediately* by pitching down to about 70º when I'm at about 300 to 400 m/s — enough speed to get some airflow, but not enough to make it unsafe or hard to turn.  My flight path will quickly align with my nose, and then airflow will hold my nose there.  Gravity will slowly tilt my flight path down towards the horizon, and airflow will then pull my nose down as well — but I don't fight it, because I want to be thrusting horizontally to get my orbital velocity up anyway.
+
+You don't need to completely understand FAR's complicated aerodynamic model to use it.  (I know I don't.)  But if you're ready for a bit of an extra challenge, give it a shot and see how you like it — and what it teaches you about rocket design.
 
 ### Procedural Fairings + Universal Storage
 
@@ -53,17 +59,28 @@ So if your rockets now need to be aerodynamic, how can you include non-aerodynam
 
 In either case, you then attach the fairing shells (either conical or egg-shaped) and adjust their position in the staging sequence.  Once in space, stage them like any other component, and the shells will break apart via explosive bolts and be discarded, revealing the sensitive equipment inside.  It's quite dramatic, and fun to watch.
 
+<span class="multi-image">
+![Procedural Fairings — deploying](/img/2014/12/kerbal2/proc-fair-1.gif)
+![Procedural Fairings — in VAB](/img/2014/12/kerbal2/proc-fair-2.jpg)
+</span>
+
 [Universal Storage][universal] gives you a less ambitious but more structural solution.  You first place down a "core" (comes in quad-, hex-, and octocore variants), then place wedge-shaped multi-purpose modules around it.  The empty *Science Bay* module lets you mount science equipment on walls inside the ship, while other modules offer various forms of integrated tanks and equipment.
 
+![Universal Storage](/img/2014/12/kerbal2/univ-stor.jpg)
+
 In addition to these core modules, Universal Storage also offers a number of add-on packs that integrate with other mods.  These packs may add resource tanks or converters, or offer wedge versions of the mod's new equipment.  I'll mention these in those other mods' descriptions where applicable.
+
+Whichever mod you use, your rockets will start to look like sleek machines again, rather than flying scrap heaps.
 
 ### KIDS
 
 FAR does have one downside: It actually becomes *easier* to get into space.  Once you get over the hurdle of making rockets that don't break up on launch, you may notice that you need about a quarter less delta-v (effort) to make it into orbit as you do in stock KSP, meaning you can carry unrealistically large payloads into space.
 
-The reason?  Because stock Kerbal engines are actually too powerful!  The KSP developers made the stock Kerbal atmosphere more like soup than air, and so they had to bump all the engine powers up to balance things out — but that breaks balance when the atmosphere is modeled realistically again.
+The reason?  Because stock Kerbal engines are actually too powerful!  The KSP developers made the stock Kerbal atmosphere more like soup than air, and so they had to bump all the engine powers up to balance things out — but that breaks balance when the atmosphere is modelled realistically again.
 
 To solve this, the [Kerbal <i>I</i><sub>sp</sub> Difficulty Scaler][KIDS] mod ("KIDS", by the same author as FAR) offers a way to blanket-reduce all engine efficiency (specific impulse, or <i>I</i><sub>sp</sub>) by an equivalent amount, returning balance to the universe and restoring the original difficulty.
+
+![KIDS](/img/2014/12/kerbal2/kids.jpg)
 
 For the extra-realism-inclined, KIDS also offers the ability to make specific impulse affect thrust rather than fuel consumption — i.e. rather than *consuming more fuel* when operated inside the atmosphere, they just *produce less thrust*, as in reality.
 
@@ -72,6 +89,8 @@ Multiple profiles are included, and you can customise every aspect of them.  You
 ### Deadly Reentry
 
 Once you've faced FAR's aerodynamic challenges, and completed your mission despite a KIDS reducing your delta-v to realistic levels, it's time to face the final challenge of your mission: the [Deadly Reentry][reentry].
+
+![Deadly Reentry](/img/2014/12/kerbal2/deadly.jpg)
 
 In stock KSP, it's almost impossible to actually burn up due to a botched reentry — as in, you pretty much have to be coming in straight down at an insane velocity (probably via cheating).  In reality, reentry angles are a real concern, and reentry itself is a fairly risky part of the mission.
 
@@ -85,29 +104,51 @@ Getting away from aerodynamics entirely, we have the [RemoteTech][remotetech] mo
 
 With this mod installed, you need a working communications link back to the Kerbal Space Centre if you want to control a probe or send science data back home (including from manned ships).  Antennae are now activated and deactivated manually, and cost power to operate while active.  Line-of-sight is required, meaning you'll need relay satellites to bounce signals around obstructions (e.g. planets).  And light-speed delay is in effect, meaning all that bouncing will lag your controls accordingly.
 
-Controlling a satellite by hand would be nigh-impossible with several minutes of light-speed delay, so it also gives you a rudimentary flight computer.  Using this, you can send commands like "turn to prograde" or "burn at 25% throttle for 5 seconds", or create manoeuvre nodes and direct the flight computer to execute them at the appropriate time.  These commands continue to execute so long as the probe has power, even if you lose your communications signal.
+![RemoteTech](/img/2014/12/kerbal2/remote.jpg)
+
+Controlling a satellite by hand would be nigh-impossible with several minutes of light-speed delay, so it also gives you a rudimentary flight computer.  Using this, you can send commands like "turn to prograde" or "burn at 25% throttle for 5 seconds", or create manoeuvre nodes as usual and direct the flight computer to execute them at the appropriate time.  These commands continue to execute so long as the probe has power, even if you lose your communications signal.
 
 RemoteTech lets you experience the suspense of waiting to see if your planned burn worked, and knowing it's too late to change anything if it doesn't.  It creates chaos and excitement when you don't plan far enough ahead and you lose signal at a critical moment.  And finally, it makes manned flights worthwhile again for those critical or long-range missions, even if there's no EVAing or flag-planting to be done.
 
 ### TAC Life Support
 
-Finally, if RemoteTech makes unmanned probes risky and exciting, then [TAC Life Support][TAC] does the same for manned ships.  It introduces several resources that are required to keep your crew alive, with deadly consequences if they run out.
+If RemoteTech makes unmanned probes risky and exciting, then [TAC Life Support][TAC] does the same for manned ships.  It introduces several resources that are required to keep your crew alive, with deadly consequences if they run out.
 
 In the stock game, Kerbals are basically the perfect space creatures — they can float around in just a spacesuit for *years* without air, heat, food, water, etc.  This is great for going easy on beginners, but also eliminates any sense of risk, tension, or time limit for manned missions.  You'll never have the *Apollo 13*-esque excitement of a mission gone horribly wrong, for example.
+
+![TAC Life Support](/img/2014/12/kerbal2/tac.jpg)
 
 TAC brings all this real-life excitement back.  It's fairly generous with resources — one big canister will hold enough to last a single Kerbal for 300+ days — but it still puts a time limit on your near-Kerbin missions, and adds a fair chunk of mass to your interplanetary missions.
 
 It also makes unmanned probes a much more desirable option in many cases.  Without TAC, there's not a lot of value to an unmanned probe — you save a bit of mass but lose the option to do reports and EVAs.  But when a crewed ship means adding life support mass *and* taking on extra risk, the situation is quite different.
 
-Plus, it brings excitement, and makes time actually *mean something* again.  Accidentally hit the stage button too soon and dumped most of your resources?  Hope you can prepare a rescue mission in time!  Missed that transfer window to get back home?  You can't just wait until the next one in a few years — better go for the risky option!  Etc.
+Plus, it brings excitement, and makes time actually *mean something* again.  Accidentally hit the stage button too soon and dumped most of your resources?  Hope your rescue mission can reach them in time!  Missed that transfer window to get back home?  You can't just wait until the next one in a few years — better go for the risky option!  Etc.
 
 Note that TAC interacts well with Universal Storage.  A [US TAC Pack][US-TAC] is available with tank wedges to carry the TAC resources and processors to recycle some of them, while the US Core parts let you either split (or produce) water into (or using) hydrogen and oxygen, all via methods used in real-life space flight.
 
 TAC and RemoteTech also play well with each other, since together, they make both manned and unmanned missions tricky, but in different ways.
 
+### Kerbal Construction Time
+
+Finally, if time still doesn't mean enough to you, and you find it's too easy to just be able to launch a dozen ships in a single Kerbin afternoon, you might be interested in [Kerbal Construction Time][KCT] ("KCT").
+
+KCT makes ships actually take time to build, rather than just money.  You build the ship in the VAB as you normally would, but when you press the launch button, your options are "simulate" and "build".
+
+![Kerbal Construction Time — simulations](/img/2014/12/kerbal2/kct-1.jpg)
+
+If you simulate the ship, you get a chance to try it out immediately.  However, at the end of the simulation, your game is automatically reverted, and you can choose to build the ship or return to editing it.  Building the ship can take between several hours and several weeks, depending on several factors — how complex the ship is, whether you have the parts in stock (from recovering previous ships), etc.
+
+And even if you're recovering ships, refurbishing them, and sending them right back out, the launchpad still needs to be reconditioned between launches.  I've had some truly massive ships put the pad out of commission for a month or more.
+
+Delaying ship launches may not seem like a big deal when you have access to time acceleration, but when you do come across a time-critical aspect of KSP — an ideal transfer window, a near-Kerbin asteroid intercept, an urgent rescue mission, etc. — using KCT means you might only get one or two shots to pull it off, with no backup if anything goes wrong.
+
+![Kerbal Construction Time — research](/img/2014/12/kerbal2/kct-2.jpg)
+
+But even for the more routine missions, KCT gives you a certain sense of having a real schedule.  Keeping your engineers busy constantly building ships for max efficiency can be a fun juggling act, and also tests your ability to run a dozen or more missions simultaneously, jumping between them at critical moments.
+
 ## Other Mods
 
-This is just the tip of the iceberg.  I currently run over 50 mods, and while I probably won't have a chance to introduce all of them, there are plenty more that are worth a mention.  I'll cover these in future posts, so stay tuned!
+This is just the tip of the iceberg.  I currently run with over 50 mods, and while I probably won't have a chance to introduce all of them, there are plenty more that are worth a mention.  I'll cover these in future posts, so stay tuned!
 
 [previous]: /2014/12/24/kerbal-1/ "Kerbal Space Program: An Introduction — Wisq.net"
 [ckan]: http://forum.kerbalspaceprogram.com/threads/100067 "The Comprehensive Kerbal Archive Network (CKAN) Package Manager — KSP Forum"
@@ -120,3 +161,4 @@ This is just the tip of the iceberg.  I currently run over 50 mods, and while I 
 [remotetech]: http://forum.kerbalspaceprogram.com/threads/83305 "RemoteTech — KSP Forum"
 [TAC]: http://forum.kerbalspaceprogram.com/threads/40667 "TAC Life Support — KSP Forum"
 [US-TAC]: https://kerbalstuff.com/mod/364 "Universal Storage [TAC PACK] — KerbalStuff"
+[KCT]: http://forum.kerbalspaceprogram.com/threads/92377 "Kerbal Construction Time — KSP Forum"
