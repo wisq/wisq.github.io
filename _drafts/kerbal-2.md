@@ -45,14 +45,6 @@ To launch rockets in FAR, you should completely ignore the standard Kerbal advic
 
 Instead, I typically do a vertical launch until I clear the pad, followed *almost immediately* by pitching down to about 70º when I'm at about 300 to 400 m/s, before I have enough speed to make it unsafe.  Gravity will slowly tilt my flight path down towards the horizon, and airflow will then pull my nose down as well — but I don't fight it, because I want to be thrusting horizontally to get my orbital velocity up anyway.
 
-### NEAR
-
-If you don't like the sound of FAR but still want something better than the stock flight model, then you probably want the cutely named [Neophyte's Elementary Aerodynamic Replacement][NEAR], or "NEAR" (by the same author as FAR).
-
-NEAR provides a simpler flight model that still takes your ship's shape into account for drag purposes, and you still need to think about vehicle stability.  However, you don't need to worry about how your aerodynamics change at transonic or supersonic speeds, and your ship won't break apart due to faulty aerodynamics.
-
-NEAR also removes the pre-flight diagnostic tools provided by FAR.  But since it simplifies the flight model, you don't need those tools so much anyway.
-
 ### Procedural Fairings + Universal Storage
 
 So if your rockets now need to be aerodynamic, how can you include non-aerodynamic equipment or assemblies on your rockets, such as science equipment or satellites?  Well, these two mods have you covered.
@@ -67,11 +59,11 @@ In addition to these core modules, Universal Storage also offers a number of add
 
 ### KIDS
 
-FAR (and NEAR) does have one downside: It actually becomes *easier* to get into space.  Once you get over the hurdle of making rockets that don't break up on launch, you may notice that you need about a quarter less delta-v (effort) to make it into orbit as you do in stock KSP, meaning you can carry unrealistically large payloads into space.
+FAR does have one downside: It actually becomes *easier* to get into space.  Once you get over the hurdle of making rockets that don't break up on launch, you may notice that you need about a quarter less delta-v (effort) to make it into orbit as you do in stock KSP, meaning you can carry unrealistically large payloads into space.
 
 The reason?  Because stock Kerbal engines are actually too powerful!  The KSP developers made the stock Kerbal atmosphere more like soup than air, and so they had to bump all the engine powers up to balance things out — but that breaks balance when the atmosphere is modeled realistically again.
 
-To solve this, the [Kerbal <i>I</i><sub>sp</sub> Difficulty Scaler][KIDS] mod ("KIDS", by the same author as FAR & NEAR) offers a way to blanket-reduce all engine efficiency (specific impulse, or <i>I</i><sub>sp</sub>) by an equivalent amount, returning balance to the universe and restoring the original difficulty.
+To solve this, the [Kerbal <i>I</i><sub>sp</sub> Difficulty Scaler][KIDS] mod ("KIDS", by the same author as FAR) offers a way to blanket-reduce all engine efficiency (specific impulse, or <i>I</i><sub>sp</sub>) by an equivalent amount, returning balance to the universe and restoring the original difficulty.
 
 For the extra-realism-inclined, KIDS also offers the ability to make specific impulse affect thrust rather than fuel consumption — i.e. rather than *consuming more fuel* when operated inside the atmosphere, they just *produce less thrust*, as in reality.
 
@@ -79,7 +71,7 @@ Multiple profiles are included, and you can customise every aspect of them.  You
 
 ### Deadly Reentry
 
-Once you've faced FAR/NEAR's aerodynamic challenges, and completed your mission despite a KIDS reducing your delta-v to realistic levels, it's time to face the final challenge of your mission: the [Deadly Reentry][reentry].
+Once you've faced FAR's aerodynamic challenges, and completed your mission despite a KIDS reducing your delta-v to realistic levels, it's time to face the final challenge of your mission: the [Deadly Reentry][reentry].
 
 In stock KSP, it's almost impossible to actually burn up due to a botched reentry — as in, you pretty much have to be coming in straight down at an insane velocity (probably via cheating).  In reality, reentry angles are a real concern, and reentry itself is a fairly risky part of the mission.
 
@@ -120,7 +112,6 @@ This is just the tip of the iceberg.  I currently run over 50 mods, and while I 
 [previous]: /2014/12/24/kerbal-1/ "Kerbal Space Program: An Introduction — Wisq.net"
 [ckan]: http://forum.kerbalspaceprogram.com/threads/100067 "The Comprehensive Kerbal Archive Network (CKAN) Package Manager — KSP Forum"
 [FAR]: http://forum.kerbalspaceprogram.com/threads/20451 "Ferram Aerospace Research — KSP Forum"
-[NEAR]: http://forum.kerbalspaceprogram.com/threads/86419 "NEAR: A Simpler Aerodynamics Model — KSP Forum"
 [maxQ]: http://en.wikipedia.org/wiki/Max_Q "Max Q — Wikipedia"
 [KIDS]: http://forum.kerbalspaceprogram.com/threads/52882 "Kerbal Isp Difficulty Scaler — KSP Forum"
 [fairings]: http://forum.kerbalspaceprogram.com/threads/39512 "Procedural Fairings — KSP Forum"
