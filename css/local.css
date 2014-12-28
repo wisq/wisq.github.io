@@ -1,3 +1,24 @@
 .multi-image img {
 	display: inline;
 }
+
+.image-right img {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ul a {
+	text-decoration: underline;
+}
+
+.toc ul a {
+	font-weight: bold;
+}
+
+span.note {
+	font-style: italic;
+	font-size: smaller;
+}
