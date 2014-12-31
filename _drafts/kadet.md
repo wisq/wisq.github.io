@@ -124,9 +124,11 @@ Several spectacular failures later, I make a monstrosity of a sounding rocket, w
 
 **Fledgling 29** collects that data … but something goes wrong with reentry, tearing off the parachutes.
 
-**Fledgling 30** misses the deserts entirely — apparently our trajectory is a bit random, too.  It's not a total loss, because we're able to collect some data while splashed down and waiting for recovery, but not exactly a success, either.
+**Fledgling 30** misses the deserts entirely — apparently our trajectory is a bit random, too.
 
 **Fledgling 31** finally pulls it off, and our sounding rocket project finally draws to a close.  I could try to reduce the thrust a bit and collect high altitude and low altitude data from the deserts, but honestly, I'm sick of sounding rockets.  We need some *real* missions.
+
+<div class="clear"></div>
 
 ## Onwards and upwards
 
