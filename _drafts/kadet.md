@@ -94,9 +94,13 @@ There's only so much to learn from space above the launchpad, though, and so **F
 
 ## Day 2
 
-Through the rest of the night and into the morning, the next several flights are just the same thing pointed in various other directions.  The quad-module design is definitely working, and it's just a matter of going through all the biome-altitude permutations.
+<span class="image-right">
+![Splashdown](/img/kadet/001/packages.jpg "Intact!  Sorta.")
+</span>
 
-Along the way, I research and start using [Smart Parts][smart-parts] to provide rudimentary automation.  At first, I just use timers — blow the decouplers 15 seconds after launch, fire the boosters 2 seconds later, deploy parachutes 60 seconds after that — but in later models, I start using fuel-level and altitude sensors to make things even more robust.  Aside from choosing when to do the experiments, the entire flight is hands-free.
+Through the rest of the night and into the morning, the next several flights are just the same thing pointed in various other directions.  The quad-module design is definitely working — even if it breaks up on landing and needs to be recovered five times in total — and it's just a matter of going through all the biome-altitude permutations.
+
+Along the way, I research and start using [Smart Parts][smart-parts] to provide rudimentary automation.  At first, I just use timers — blow the decouplers 15 seconds after launch, fire the boosters 2 seconds later, deploy parachutes 60 seconds after that — but in later models, I start using fuel-level and altitude sensors to make things even more robust.  Except for choosing when to do the experiments, the entire flight is hands-free.
 
 I'm still not breaking out of the atmosphere, though.  Time to fix that.
 
@@ -114,7 +118,13 @@ From memory, there's only three more biomes left on Kerbin: The poles, the deser
 
 Several spectacular failures later, I make a monstrosity of a sounding rocket, with the second stage running at 30% thrust on 13 separate engines.  It still can't reach the big desert to the west, but it doesn't need to — turns out there's a small patch of desert on the west coast across from the Kerbal Space Centre, and that's good enough for our lazy scientists.
 
-**Fledgling 29** collects that data … and reenters too sharply, tearing off the parachutes.  (Time compression may have had a hand here.)  **Fledgling 30** misses the deserts entirely — apparently our trajectory is a bit random, too.  They're not total losses, because we're able to collect some data while splashed down and waiting for recovery, but not exactly successes, either.
+<span class="image-right">
+![Fledgling 28 – Staging](/img/kadet/001/jettison.gif "Staging and jettisoning")
+</span>
+
+**Fledgling 29** collects that data … but something goes wrong with reentry, tearing off the parachutes.
+
+**Fledgling 30** misses the deserts entirely — apparently our trajectory is a bit random, too.  It's not a total loss, because we're able to collect some data while splashed down and waiting for recovery, but not exactly a success, either.
 
 **Fledgling 31** finally pulls it off, and our sounding rocket project finally draws to a close.  I could try to reduce the thrust a bit and collect high altitude and low altitude data from the deserts, but honestly, I'm sick of sounding rockets.  We need some *real* missions.
 
