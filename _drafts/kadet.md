@@ -76,7 +76,7 @@ Back to the drawing board.
 
 **Fledgling 8** is a new model featuring a much larger first stage.  Success!  We peak at a whopping 194km, and the parachutes safely deploy despite the high reentry speed, even if you deploy them while in space.  (They slow you down in the upper atmosphere where the air is still too thin to break them.)
 
-As the sun begins to set over the Kerbal Space Centre, I start getting impatient with the whole "one rocket, one experiment, 3.2 science" approach.  Surely there must be a way to combine multiple packages in a single rocket?  I research radial decouplers and try various ways of mashing rockets together.  
+As the sun begins to set over the Kerbal Space Centre, I start getting impatient with the whole "one rocket, one experiment, 3 or 4 science" approach.  Surely there must be a way to combine multiple packages in a single rocket?  I research radial decouplers and try various ways of mashing rockets together.
 
 ![Fledgling 9](/img/kadet/001/fledgling_09.jpg "Fledgling 9")
 
