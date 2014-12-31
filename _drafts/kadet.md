@@ -4,7 +4,7 @@ title:      "Space Kadet: First Flight"
 subtitle:   "A modded Kerbal Space Program playthrough"
 #date:       2014-12-27 17:00:00 EST
 author:     "Wisq"
-header-img: "img/2014/12/kerbal-4.jpg"
+header-img: "img/kadet/001/header.jpg"
 ---
 
 *Space.  The final frontier.*
