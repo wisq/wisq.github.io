@@ -86,7 +86,7 @@ But if keeping them attached until the end is the key — and if I can only rad
 
 ![Fledgling 10](/img/kadet/001/fledgling_10.jpg "Fledgling 10")
 
-And so, after many more attempts, **Fledgling 10** is born.  One empty booster in the middle, four empty boosters around it, and then four packages and five nosecones, all riding on four (real, fuelled) double booster stacks.  It successfully rides to 100km, well into space — and even though it smashes to bits on landing, all four science packages survive.  Success!
+And so, after many more attempts, **Fledgling 10** is born.  One empty booster in the middle, four empty boosters around it.  On top of these structural boosters, we have packages and nosecones; underneath, we have (real, fuelled) double booster stacks.  It successfully rides to 100km, well into space — and even though it smashes to bits on landing, all four science packages survive.  Success!
 
 ![Fledgling 11](/img/kadet/001/fledgling_11.jpg "Fledgling 11.  We have sticks.  ULTRA HIGH TECH.")
 
