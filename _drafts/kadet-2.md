@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Space Kadet: FIXME"
-subtitle:   "FIXME"
-#date:       2014-12-31 12:00:00 EST FIXME
+title:      "Space Kadet: You Spin Me Round"
+subtitle:   "Getting into orbit and avoiding catastrophe"
+date:       2015-01-02 12:00:00 EST
 author:     "Wisq"
-header-img: "img/kadet/001/header.jpg"
+header-img: "img/kadet/002/header.jpg"
 ---
 
 Today's Kerballing begins a little awkwardly, with a bug that prevents me launching or even exiting from the vehicle editor.
@@ -19,17 +19,17 @@ Onwards with some real spaceflight!
 
 ## Day 3
 
-![Sunrise](/img/kadet/002/sunrise.jpg)
+![Sunrise](/img/kadet/002/sunrise.jpg "Sunrise over the KSC.")
 
 The sun rises, and a new day of spaceflight testing begins.
 
-Thanks to the sounding rockets, the genuine part of our spaceflight program begins with a lot more hardware than usual.  Still, getting into orbit is going to be a lot of prototyping, so I begin with some "Kerbal-ready" ships — ready to be piloted, but unmanned until tested.
+Thanks to the sounding rockets, the genuine part of our spaceflight program begins with a lot more hardware than usual.  Still, getting into orbit is going to be a lot of prototyping, so I begin with some "Kerbal-ready" ships — ready to be piloted, but unmanned until tested.
 
 Some quick math seems to confirm that [MechJeb][mechjeb]'s delta-v display is correctly modified to take [KIDS][KIDS] into account.  So as long as the readouts show me having at least 3500 m/s delta-v, I should be able to make it into orbit.
 
 With a three-tonne payload that includes pairs of Mystery Goo and Science Jr wedges, a simple 1-2 staging configuration (tank + engine + 2x tank + engine) gets me about 1300 m/s delta-v per stage.  So our lowest stage barely needs 1000 m/s to finish the job.
 
-![Korona 1](/img/kadet/002/korona-01.jpg)
+![Korona 1](/img/kadet/002/korona-01.jpg "Korona 1")
 
 Five solid boosters in a radial pattern do the trick, and **Korona 1** is the result.  Unfortunately, it also seems to have aerodynamic issues, and it ends up getting locked into a southwesterly course rather than an eastern one.  It makes it into space, but not into orbit, and the chutes deploy too early and snap.
 
@@ -37,85 +37,92 @@ So our first mission is a total loss of craft and science, but there's already s
 
 1. The heatshield can survive a sub-optimal reentry angle.  The chutes were the problem, not the shield.
 
-2. The default RealChute profiles are utterly insane.  I've always wondered why they pre-deploy at 25km(!) high — while we're still seeing reentry flame effects! — but my reentry angles were always shallow enough that it wasn't a problem.  Pre-deploying at a lower altitude (say, 5km) would've saved this ship, despite the awkward reentry.
+2. The default [RealChute][realchute] profiles are utterly insane.  I've always wondered why they pre-deploy at 25km(!) high — while we're still seeing reentry flame effects! — but my reentry angles were always shallow enough that it wasn't a problem.  Pre-deploying at a lower altitude (say, 5km) would've saved this ship, despite the awkward reentry.
 
 3. I was right not to send crew up on the first missions.
 
 So I edit all the RealChute profiles to default to 5000m pre-deployment, and then try again.
 
-![Korona 2](/img/kadet/002/korona-02.jpg)
+![Korona 2](/img/kadet/002/korona-02.jpg "Korona 2")
 
-**Korona 2** is the same thing, replacing the winglets with control surfaces instead.  I've got a little more ability to adjust my flight path, but it still goes wonky on launch, and doesn't quite make it into orbit.  The lower chute deployment saves it this time, though, and it ends up landing far north, near Kerbin's arctic circle.  <span class="science">40</span> Science recovered — not bad.
+**Korona 2** is the same thing, replacing the winglets with control surfaces instead.  I've got a little more ability to adjust my flight path, but it still goes wonky on launch, and doesn't quite make it into orbit.  The lower chute deployment saves it this time, though, and it ends up landing far north, near Kerbin's arctic circle.  We recover <span class="science">40</span> Science — not bad.
 
-![Korona 3](/img/kadet/002/korona-03.jpg)
+![Korona 3](/img/kadet/002/korona-03.jpg "Korona 3")
 
 With **Korona 3**, I give up on trying to overcome our low-speed aerodynamic instability and add fairings around the payload instead.  We manage to hold a roughly easterly course, so that Kerbin's rotation is giving us extra orbital velocity rather than taking it away.
 
-![Korona 3 in orbit](/img/kadet/002/k3-orbit.jpg)
+![Korona 3 in orbit](/img/kadet/002/k3-orbit.jpg "Like a record, baby, right round.")
 
 Success!  We've even got 168 m/s delta-v to spare, way more than the 40 or so that we need to safely deorbit.  And that's despite letting our ascent apoapsis get too high **and** losing 50 m/s or more to an improper burn, so future missions should have even more.
 
-![Korona 3 deorbit trajectory](/img/kadet/002/k3-trajectory.jpg)
+![Korona 3 deorbit trajectory](/img/kadet/002/k3-trajectory.jpg "LIES.")
 
 Of course, with no satellite network, we promptly lose contact when it dips below the horizon.  But as soon as we regain contact, I queue up a deorbit burn on the opposite side of Kerbin, followed by a decoupling and "surface retrograde" orientation for reentry.  The [Trajectories][trajectories] mod tells me that this will land me near the Space Centre, so I might actually have radio contact during final descent and can do some atmosphere science.
 
-![Korona 3 landing](/img/kadet/002/k3-landing.jpg)
+![Korona 3 landing location](/img/kadet/002/k3-landing.jpg "*facepalm*")
 
 And, nope.  I suppose I should've realised that the calculated trajectory is based on the entire craft, not just the command module.  With the engine jettisoned, the aerodynamic profile is completely different, and we land far west in the desert instead.  (We also blow three of the four science wedges, but that won't be a problem once we replace the probe core with more parachutes.)
 
 Well, this seems safe enough now.  Time for a manned flight!
 
-![Korona 4](/img/kadet/002/korona-04.jpg)
+![Korona 4](/img/kadet/002/korona-04.jpg "Korona 4")
 
 Jebediah Kerman suits up and boards **Korona 4**, but we only manage a sub-orbital flight.  The heading was perfect this time, but I'm still getting my ascent profile figured out, and it looks like 80km doesn't give us enough time to circularise with the low-thrust LV-909.
 
-Still, he manages to land safely — and with one crew report, seven EVA reports, and results from both Mystery Goo and Science Jr wedges, we accumulate a whopping <span class="science">112</span> Science.
+Still, he manages to land safely — and with one crew report, seven EVA reports, and results from both Mystery Goo and Science Jr wedges, we accumulate a whopping <span class="science">112</span> Science.
 
-![Jebediah's first mission](/img/kadet/002/jeb-first.jpg)
+![Jebediah's first mission](/img/kadet/002/jeb-first.jpg "Maybe if I take this dirt and claim I found it on the Mun …")
 
 Jeb also gets awarded an impressive 10 ribbons, although some are a bit questionable.  "First Kerbal in Space" is certainly an achievement, but "First Kerbal taking footsteps on Kerbin"?  *Really?*
 
-**Korona 5** is the same thing, but this time I aim for 100km apoapsis.  It gets us into orbit with plenty to spare, but there just isn't much science to gather any more.  Still, we manage a few reports and samples, including another lazy-R&D "surface sample" from the oceans.  (I forget to turn off the reentry orientation autopilot and the ship is thrashing around too much for Jeb to get back in, so the rescue teams pick him and the pod up separately.)
+**Korona 5** is the same thing, but this time I aim for 100km apoapsis.  It gets us into orbit with plenty to spare, but there just isn't much science to gather any more.  Still, we manage a few reports and samples, including another lazy-R&D "surface sample" from the oceans.
 
-Having orbited well into the night, we end our day at <span class="science">156</span> Science — just four short of getting Advanced Exploration and the Orbital Telescope.  With one report per biome, it should be a big boost to our science program.  I do some quick Launchpad Science™ with an array of instruments and collect another <span class="science">16</span> Science, and our R&D teams burn the midnight oil to get us some telescopes for tomorrow's launches.
+<span class="image-right">
+![Jebediah's awkward splashdown](/img/kadet/002/jeb-splashdown.gif "Jeb seems … unimpressed.")
+</span>
+
+I forget to turn off the flight computer before I EVA for the samples, and so the ship is thrashing around too much for Jeb to get back in.  No problem — the rescue teams just pick him and the pod up separately.
+
+Having orbited well into the night, we end our day at <span class="science">156</span> Science — just four short of getting Advanced Exploration and the Orbital Telescope.  With one report per biome, it should be a big boost to our science program.  I do some quick Launchpad Science™ with an array of instruments and collect another <span class="science">16</span> Science, and our R&D teams burn the midnight oil to get us some telescopes for tomorrow's launches.
 
 ## Day 4
 
 With a few more science instruments to add to the mix, I decide it's time to push a little higher and see if we can achieve high orbit (over 250km), or at least increase our safety margins.
 
-![Korona 6](/img/kadet/002/korona-06.jpg)
+![Korona 6](/img/kadet/002/korona-06.jpg "Korona 6")
 
-**Korona 6** is the result.  An extra layer of solid rockets gives us 20% more delta-v, and I replace two of the wedges with a magnometer and orbital telescope.  I also slap on two barometers and a Dynamic Albedo of Neutrons instrument — basically a surface scanner while landed — because they're so tiny that I may as well.
+**Korona 6** is the result.  An extra layer of solid rockets gives us 20% more delta-v, and I replace two of the wedges with a magnometer and orbital telescope.  I also slap on two barometers and a Dynamic Albedo of Neutrons instrument — basically a surface scanner while landed — because they're so tiny that I may as well.
 
 Something goes very, very wrong with the launch, and we end up thrusting almost horizontal in a southwesterly direction at 2000m altitude.  The solid boosters quickly run out, and I don't fire off the next set, but now I have to quickly figure out how to safely abort.
 
-I never really prepared for this contingency — I can't safely decouple without blowing the fairings, but the same action group that blows the fairings also arms the parachutes, since they're normally both triggered by the altimeter when we exit the atmosphere.  There's no time to edit the action group or blow the fairings by hand.  So I manually hit that action group and hope for the best.
+I never really prepared for this contingency — I can't safely decouple without blowing the fairings, but the same action group that blows the fairings also arms the parachutes, since they're normally both triggered by the altimeter when we exit the atmosphere.  There's no time to edit the action group or blow the fairings by hand.  So I manually hit that action group and hope for the best.
 
 <iframe width="750" height="422" src="//www.youtube.com/embed/zLc8rmif1Wc" frameborder="0" allowfullscreen></iframe>
 
 The fairings blow and the parachutes violently rip the pod off the rocket.  Jebediah survives, and even manages to collect some science data from the surface.  But this close call is a good reminder that I need to start thinking about setting up the "Abort" action group.
 
-![Korona 7](/img/kadet/002/korona-07.jpg)
+![Korona 7](/img/kadet/002/korona-07.jpg "Korona 7")
 
-**Korona 7** features an extra set of winglets and an "Abort" group that shuts down all engines, blows the fairings and decoupler, and deploys the chutes.  Takeoff is still a bit rocky — we end up going straight up a lot longer than intended, with almost no attitude control — but the SRBs get us up to 100km apoapsis almost on their own, leaving most of our liquid fuel for space operations.
+**Korona 7** features an extra set of winglets and an "Abort" group that shuts down all engines, blows the fairings and decoupler, and deploys the chutes.  Takeoff is still a bit rocky — we end up going straight up a lot longer than intended, with almost no attitude control — but the SRBs get us up to 100km apoapsis almost on their own, leaving most of our liquid fuel for space operations.
 
 There's an additional complication I hadn't considered, though:  The orbital telescope can be used once per biome, but it can only hold one set of observations at a time.  If I want to observe something else, I need to transmit my previous results first.
 
-The problem is, due to line-of-sight radio limits, I can only transmit data when I'm flying over the Space Centre.  It also consumes most of my energy reserves just to send a single set.  Add this to the fact that it's morning at KSC — so when we first fly over it, we've just come through the dark side and lost a lot of power.
+The problem is, due to line-of-sight radio limits, I can only transmit data when I'm flying over the Space Centre.  It also consumes most of my energy reserves just to send a single set.  Add this to the fact that it's morning at KSC — so when we first fly over it, we've just come through the dark side and lost a lot of power.
 
-![Transferring science with Ship Manifest](/img/kadet/002/manifest.jpg)
+![Transferring science with Ship Manifest](/img/kadet/002/manifest.jpg "This changes EVERYTHING.")
 
-Between all these, it looks like it's going to take a long time to survey the entire planet.  But then I realise my [Ship Manifest][manifest] mod offers an alternative: I can transfer the science data out of the telescope, into the command pod's science container.  I'm not sure if it's entirely legit, but it seems logical — download from the telescope, free up its memory, buffer the data in main memory, transmit or recover it later.  (Presumably this also works for thermometer and barometer readings, too.)
+Between all these, it looks like it's going to take a long time to survey the entire planet.  But then I realise my [Ship Manifest][manifest] mod offers an alternative: I can transfer the science data out of the telescope, into the command pod's science container.  I'm not sure if it's entirely legit, but it seems logical — download from the telescope, free up its memory, buffer the data in main memory, transmit or recover it later.  (Presumably this also works for thermometer and barometer readings, too.)
 
 Night falls on the KSC, and day four is over.  We've retrieved over <span class="science">120</span> Science today, which definitely proves that the telescope and barometer were worth the investment.  But we're also running out of science on Kerbal, so it's time to start setting our sights higher.
 
-![Current tech tree](/img/kadet/002/tech-tree.jpg)
+![Current tech tree](/img/kadet/002/tech-tree.jpg "SCIENCE!")
 
 I had my sights on Advanced Electrics (<span class="science">160</span>) for the deployable solar panels, but with science running low, I take a detour.  Getting to 2.5m Rockomax-class rockets is more expensive than I thought, so I just research General Rocketry (<span class="science">20</span>) for bigger boosters, and General Construction (<span class="science">45</span>) for struts and tri-couplers.  Forget Rockomax, we'll just build big tri-stacks instead.
 
-*Next episode: To the Mun!  Well, hopefully.*
+*Next episode: To the Mun!  Hopefully.*
 
 [KIDS]: /2014/12/25/kerbal-2/#kids "KIDS–— Kerbal Space Program: Keepin' It Real — Wisq.net"
 [mechjeb]: /2014/12/26/kerbal-3/#mechjeb "MechJeb — Kerbal Space Program: Pretty Fly (for a UI) — Wisq.net"
 [trajectories]: http://forum.kerbalspaceprogram.com/threads/104694 "Trajectories: atmospheric predictions — KSP Forum"
 [manifest]: /2014/12/26/kerbal-3/#ship-manifest "Ship Manifest — Kerbal Space Program: Pretty Fly (for a UI) — Wisq.net"
+[realchute]: /2014/12/27/kerbal-4/#realchute "RealChute —Kerbal Space Program: Stellar Expansions — Wisq.net"
