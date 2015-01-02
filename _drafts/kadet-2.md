@@ -117,7 +117,7 @@ Night falls on the KSC, and day four is over.  We've retrieved over <span class=
 
 ![Current tech tree](/img/kadet/002/tech-tree.jpg "SCIENCE!")
 
-I had my sights on Advanced Electrics (<span class="science">160</span>) for the deployable solar panels, but with science running low, I take a detour.  Getting to 2.5m Rockomax-class rockets is more expensive than I thought, so I just research General Rocketry (<span class="science">20</span>) for bigger boosters, and General Construction (<span class="science">45</span>) for struts and tri-couplers.  Forget Rockomax, we'll just build big tri-stacks instead.
+I was planning on grabbing Advanced Electrics (<span class="science">160</span>) for the deployable solar panels, but with science running low, I take a detour.  Getting to 2.5m Rockomax-class rockets is more expensive than I thought, so I just research General Rocketry (<span class="science">20</span>) for bigger boosters, and General Construction (<span class="science">45</span>) for struts and tri-couplers.  Forget Rockomax, we'll just build big tri-stacks instead.
 
 *Next episode: To the Mun!  Hopefully.*
 
