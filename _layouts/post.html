@@ -13,6 +13,10 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
                     <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>
+
+                    {% if page.tags %}
+                    <span class="meta tags">Tags: {{ page | tags }}</span>
+                    {% endif %}
                 </div>
             </div>
         </div>

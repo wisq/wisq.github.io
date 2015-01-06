@@ -16,3 +16,6 @@ paginate: 5
 exclude: ["node_modules"]
 gems:
   - jekyll-sitemap
+
+tag_page_layout: tag_page
+tag_page_dir: tag
