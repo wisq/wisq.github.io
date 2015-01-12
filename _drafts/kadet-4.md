@@ -11,7 +11,7 @@ header-img: "img/kadet/004/header.jpg"
 This is the fourth post of my highly-modded Kerbal Space Program playthrough.  The first is [here][kadet-1], the second is [here][kadet-2], and the third is [here][kadet-3].
 </span>
 
-When last we left our intrepid Kerbals, they had just returned from their first orbits of the Mun with <span class="science">411</span> Science, bringing them to a total of <span class="science">568</span>.
+When last we left our intrepid Kerbals, they had just returned from their first orbit of the Mun with <span class="science">411</span> Science, bringing them to a total of <span class="science">568</span>.
 
 Time to spend it!
 
@@ -153,7 +153,7 @@ We're back to two layers of wedges, and aside from the fuel cell and batteries, 
 
 A new Soil Moisture Sensor sits inbetween the capsule and the parachute, so I add some radial parachutes just in case that ends up like *Korona 30*'s batteries.  And finally, I add eight Radioisotope Thermal Generators, which should provide plenty of non-stop power even in shadow.
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/h--BrRo2uIk" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="422" src="//www.youtube.com/embed/pkL_7vjadb8" frameborder="0" allowfullscreen></iframe>
 
 It's rookie scientist Halwig's turn to go into space, because Bob and Shepdrin are still recovering.  Our ascent profile is our best yet: Like before, we aim for a 60º ascent as soon as we leave the pad, but I also nose down from surface velocity prograde to orbital prograde once we hit about 30km, since we've exited the deep atmosphere and aerodynamics are no longer a major issue.
 
@@ -161,7 +161,9 @@ It's rookie scientist Halwig's turn to go into space, because Bob and Shepdrin a
 
 We gain so much orbital speed by the time we break out of the atmosphere that our final circularisation burn at 100km is only 92 m/s.  I need to start logging numbers to be able to compare ascent profiles, but my recorder says we spent 3457 m/s delta-v using this shallow profile, so that seems good.
 
-Breaking into space, I get a [ScienceAlert][sciencealert] notification that I should do a Soil Moisture scan.  Sure, why not?  Well, I'll tell you why not: It involves extending a giant rotating boom, from *inside* the protective fairings — the ones we haven't blown off yet!
+Breaking into space, I get a [ScienceAlert][sciencealert] notification that I should do a Soil Moisture scan.  Sure, why not?
+
+Well, I'll tell you why not: It involves extending a giant rotating boom, from *inside* the protective fairings — the ones we haven't blown off yet!
 
 ![Korona 32 fairings mistake](/img/kadet/004/k32-fairings.jpg "Oops.")
 
@@ -170,6 +172,8 @@ Not only does the boom arm magically pierce through the fairings, but when we hi
 As we approach Minmus, the solar panels retract at 75km altitude.  Apparently, the altimeter triggers even on other bodies — including ones without atmospheres — so our solar panel toggle system is a bust.  Ah well.
 
 We collect our data and break Minmus orbit with 1581 delta-v to spare — enough that we can afford to circularise around Kerbin at 75km and ensure a slow, safe reentry.
+
+![Korona 32 desert reentry](/img/kadet/004/k32-desert.jpg "Lovely view on the reentry.")
 
 The parachutes screw up yet again, but in a non-fatal way — two of the radials pre-deploy late, fully deploy early, and are unusually large.  (Apparently parachute calibration is hard or something, I dunno.  It's certainly better than failing to deploy.)
 
