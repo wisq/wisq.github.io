@@ -9,11 +9,9 @@ cloudfront_distribution_id: E207AK80NEVLR9
 # site: path-to-your-website
 
 max_age:
-  "img/*": 86400
-  "js/local.js": 600
-  "js/*":  86400
-  "css/local.css": 600
-  "css/*": 86400
+  "assets/*": 315360000
+  "fonts/*": 315360000
+  "img/*": 315360000
   "*": 600
 
 gzip:
