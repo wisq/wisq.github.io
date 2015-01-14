@@ -9,5 +9,8 @@ optimise:
 push: build
 	bundle exec s3_website push
 
+force_push: build
+	bundle exec s3_website push --force
+
 serve:
 	bundle exec jekyll serve --draft
