@@ -12,6 +12,7 @@ max_age:
   "assets/*": 315360000
   "fonts/*": 315360000
   "img/*": 315360000
+  "favicon.ico": 86400
   "*": 600
 
 gzip:
