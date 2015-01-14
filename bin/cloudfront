@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require 'resolv'
+require 'dnsimple'
+
+USERNAME, API_TOKEN = File.read(ENV['HOME'] + '/.dnsimple').chomp.split(':', 2)
+
+ORIGIN = 'd1h1johnn1gikr.cloudfront.net.'
+DOMAIN = 'wisq.net'
+RECORD = '' # root
+
+TTL = 600
+
+RECORD_TYPES = {
+  Resolv::IPv4 => 'A',
+  Resolv::IPv6 => 'AAAA',
+}
+
+client = Dnsimple::Client.new(username: USERNAME, api_token: API_TOKEN)
+
+wanted = Resolv::DNS.new.getaddresses(ORIGIN).sort_by(&:address)
+actual = client.domains.list_records(DOMAIN, name: RECORD).select { |r| r.type == 'A' }.sort_by(&:content)
+
+to_create = wanted.reject { |addr|   actual.find { |record| record.content == addr.to_s } }
+to_delete = actual.reject { |record| wanted.find { |addr|   record.content == addr.to_s } }
+
+puts "Need to create: #{to_create.empty? ? 'nothing!' : to_create.join(' + ')}"
+puts "Need to delete: #{to_delete.empty? ? 'nothing!' : to_delete.map(&:content).join(' + ')}"
+
+until to_create.empty? && to_delete.empty?
+  if record = to_delete.shift
+    client.domains.delete_record(DOMAIN, record.id)
+    puts "Deleted #{record.content}."
+  end
+
+  if addr = to_create.shift
+    record = client.domains.create_record(DOMAIN, name: RECORD, record_type: RECORD_TYPES[addr.class], content: addr.to_s, ttl: 600)
+    puts "Created #{record.content}."
+  end
+end
