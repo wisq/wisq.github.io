@@ -21,6 +21,8 @@ gzip:
   - .css
   - .md
   - .js
+  - .ttf
+  - .svg
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 # s3_endpoint: ap-northeast-1
