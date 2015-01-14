@@ -1,5 +1,6 @@
 ---
 layout: page
+hide: true
 title: "404 Not Found"
 description: "Don't know what you're looking for, but it's not here."
 header-img: "img/error-bg.jpg"
