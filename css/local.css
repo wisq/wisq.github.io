@@ -32,8 +32,12 @@ span.science {
 }
 
 .post-meta.tags, .post-heading .meta.tags {
-	margin-top: 7px;
 	font-size: 15px;
+}
+.post-meta.tags { margin-top: 3px; }
+.post-heading .meta.tags { margin-top: 7px; }
+.post-meta.tags a {
+	color: inherit;
 }
 
 .intro-header .post-heading {

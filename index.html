@@ -16,7 +16,11 @@ header-img: "img/home-bg.jpg"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <div class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</div>
+
+    {% if post.tags %}
+    <div class="post-meta tags">Tags: {{ post | tags }}</div>
+    {% endif %}
 </div>
 <hr>
 {% endfor %}
