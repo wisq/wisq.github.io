@@ -2,6 +2,7 @@
 layout:     post
 title:      "Canada No-Post"
 subtitle:   "We deliver … to your nearest post office"
+description: "Why Canada Post should be ashamed of themselves.  Also, why Rocksmith 2014, well, rocks."
 date:       2014-12-18 10:00:00 -0500
 author:     "Wisq"
 header-img: "img/2014/12/canada-post.jpg"
