@@ -9,4 +9,4 @@ If you'd like to reach me directly, please contact me via the Twitter button at 
 
 If you're having an issue with the site, technical or otherwise, you can [check and create issues][issues] on the site's own Github project page.
 
-[issues]: https://github.com/wisq/wisq.github.io/issues "Issues – wisq/wisq.github.io"
+[issues]: https://github.com/wisq/wisq.net/issues "Issues – wisq/wisq.net"
