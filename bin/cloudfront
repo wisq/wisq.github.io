@@ -3,6 +3,8 @@
 require 'resolv'
 require 'dnsimple'
 
+$stdout.sync = $stderr.sync = true
+
 USERNAME, API_TOKEN = File.read(ENV['HOME'] + '/.dnsimple').chomp.split(':', 2)
 
 ORIGIN = 'd1h1johnn1gikr.cloudfront.net.'
