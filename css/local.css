@@ -30,3 +30,12 @@ span.science:before {
 span.science {
 	color: #07d;
 }
+
+.post-meta.tags, .post-heading .meta.tags {
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+.intro-header .post-heading {
+	padding: 136px 0px;
+}
