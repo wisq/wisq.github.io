@@ -49,17 +49,13 @@
     </div>
 </footer>
 
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+{% javascript_asset_tag global %}
+- /js/jquery.min.js
+- /js/bootstrap.min.js
+- /js/clean-blog.min.js
+- /js/scroll.min.js
+{% endjavascript_asset_tag %}
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Scrolling analytics -->
-<script src="{{ "/js/scroll.min.js" | prepend: site.baseurl }}"></script>
 <script>
 jQuery(function() { jQuery.scrollDepth({
 	minHeight: 2000,
