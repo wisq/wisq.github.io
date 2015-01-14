@@ -39,3 +39,30 @@ span.science {
 .intro-header .post-heading {
 	padding: 136px 0px;
 }
+
+table#tag-index {
+	margin: 0px auto;
+}
+table#tag-index td {
+	padding: 5px 10px;
+}
+table#tag-index td.tag {
+	background-image: url(/img/table-dot.png);
+	background-repeat: repeat-x;
+	padding-right: 50px;
+}
+table#tag-index td.tag span.name {
+	background-image: none;
+	background-color: white;
+	padding-right: 10px;
+}
+table#tag-index td.count {
+	text-align: right;
+}
+
+div.back-tags {
+	text-align: center;
+}
+div.back-tags a {
+	color: #999;
+}

@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Tags"
+description: "Here's what I write about.  Usually."
+header-img: "img/tags-bg.jpg"
+---
+
+<table id="tag-index">
+{% assign sorted = site.tags | sort_tags %}
+{% for tag in sorted %}
+  <tr>
+    <td class="tag">
+      <span class="name">
+	<a href="/tag/{{tag[0]}}/">
+	  {{ tag[0] }}
+	</a>
+      </span>
+    </td>
+    <td class="count">
+      <a href="/tag/{{tag[0]}}/">
+	{{ tag[1] | count }} posts
+      </a>
+    </td>
+  </tr>
+{% endfor %}
+</table>
