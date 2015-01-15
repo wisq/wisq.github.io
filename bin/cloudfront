@@ -5,11 +5,11 @@ require 'dnsimple'
 
 $stdout.sync = $stderr.sync = true
 
-USERNAME, API_TOKEN = File.read(ENV['HOME'] + '/.dnsimple').chomp.split(':', 2)
-
 ORIGIN = 'd1h1johnn1gikr.cloudfront.net.'
 DOMAIN = 'wisq.net'
 RECORD = '' # root
+
+DOMAIN_API_TOKEN = File.read(ENV['HOME'] + "/.dnsimple/#{DOMAIN}").chomp
 
 TTL = 600
 
@@ -18,7 +18,7 @@ RECORD_TYPES = {
   Resolv::IPv6 => 'AAAA',
 }
 
-client = Dnsimple::Client.new(username: USERNAME, api_token: API_TOKEN)
+client = Dnsimple::Client.new(domain_api_token: DOMAIN_API_TOKEN)
 
 wanted = Resolv::DNS.new.getaddresses(ORIGIN).sort_by(&:address)
 actual = client.domains.list_records(DOMAIN, name: RECORD).select { |r| r.type == 'A' }.sort_by(&:content)
