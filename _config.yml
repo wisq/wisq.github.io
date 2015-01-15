@@ -15,7 +15,15 @@ permalink: pretty
 paginate: 5
 exclude:
   - node_modules
-  - "s3_website.yml"
+  - "*file"
+  - "*file.*"
+  - "README*"
+  - "*.json"
+  - "*.yml"
+  - "bin"
+  - "css"
+  - "js"
+  - "less"
 gems:
   - jekyll-sitemap
 
