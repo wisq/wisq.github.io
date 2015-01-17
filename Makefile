@@ -1,5 +1,5 @@
 build: optimise bundle
-	bundle exec jekyll build
+	COMPRESS=1 bundle exec jekyll build
 
 bundle:
 	bundle check || bundle install

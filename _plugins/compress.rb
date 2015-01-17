@@ -1,27 +1,31 @@
 require 'jekyll_asset_pipeline'
 
-class JavaScriptCompressor < JekyllAssetPipeline::Compressor
-  require 'closure-compiler'
+module Wisq
+  if ENV['COMPRESS'] == '1'
+    require 'jekyll-minifier'
 
-  def self.filetype
-    '.js'
-  end
+    class JavaScriptCompressor < JekyllAssetPipeline::Compressor
+      require 'closure-compiler'
 
-  def compress
-    return Closure::Compiler.new.compile(@content)
-  end
-end
+      def self.filetype
+        '.js'
+      end
 
-module JekyllAssetPipeline
-  class CssCompressor < JekyllAssetPipeline::Compressor
-    require 'yui/compressor'
-
-    def self.filetype
-      '.css'
+      def compress
+        return Closure::Compiler.new.compile(@content)
+      end
     end
 
-    def compress
-      return YUI::CssCompressor.new.compress(@content)
+    class CssCompressor < JekyllAssetPipeline::Compressor
+      require 'yui/compressor'
+
+      def self.filetype
+        '.css'
+      end
+
+      def compress
+        return YUI::CssCompressor.new.compress(@content)
+      end
     end
   end
 end

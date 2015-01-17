@@ -7,6 +7,7 @@ gem 'dnsimple'
 gem 'jekyll-asset-pipeline'
 gem 'closure-compiler'
 gem 'yui-compressor'
+gem 'jekyll-minifier'
 
 gem 'jekyll-last-modified-at'
 gem 'jekyll-tagging', :github => 'wisq/jekyll-tagging', :ref => '068eb44ed7ab64f9552d104c1eca3863526ec5ae'
