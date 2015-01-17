@@ -25,6 +25,7 @@ exclude:
   - "js"
   - "less"
 gems:
+  - jekyll-last-modified-at
   - jekyll-sitemap
 
 tag_page_layout: tag_page

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.tag_index %}Index of posts with the &ldquo;{{ page.tag }}&rdquo; tag.{% else %}{{ page.subtitle }}{% endif %}{% if paginator.page > 1 %} (page {{ paginator.page }}){% endif %}" />
 
-  {% if paginator.page > 1 %}
+  {% if page.noindex == true or paginator.page > 1 %}
     <meta name="robots" content="noindex" />
   {% endif %}
 
