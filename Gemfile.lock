@@ -1,7 +1,17 @@
-PATH
-  remote: ../jekyll-sitemap
+GIT
+  remote: git://github.com/wisq/jekyll-sitemap.git
+  revision: 12ba411290f666dc886338239600b12ed159300b
+  ref: 12ba411290f666dc886338239600b12ed159300b
   specs:
     jekyll-sitemap (0.7.0)
+
+GIT
+  remote: git://github.com/wisq/jekyll-tagging.git
+  revision: 068eb44ed7ab64f9552d104c1eca3863526ec5ae
+  ref: 068eb44ed7ab64f9552d104c1eca3863526ec5ae
+  specs:
+    jekyll-tagging (0.6.0)
+      ruby-nuggets
 
 GEM
   remote: https://rubygems.org/
@@ -57,8 +67,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
-    jekyll-tagging (0.6.0)
-      ruby-nuggets
     jekyll-watch (1.2.0)
       listen (~> 2.7)
     json (1.8.2)
@@ -108,6 +116,6 @@ DEPENDENCIES
   jekyll-asset-pipeline
   jekyll-last-modified-at
   jekyll-sitemap!
-  jekyll-tagging
+  jekyll-tagging!
   s3_website
   yui-compressor
