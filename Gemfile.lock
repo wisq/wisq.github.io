@@ -6,6 +6,7 @@ GEM
       timers (~> 4.0.0)
     classifier-reborn (2.0.3)
       fast-stemmer (~> 1.0)
+    closure-compiler (1.1.11)
     coffee-script (2.3.0)
       coffee-script-source
       execjs
@@ -95,6 +96,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  closure-compiler
   dnsimple
   jekyll
   jekyll-asset-pipeline
