@@ -38,7 +38,7 @@ layout: default
         var disqus_shortname = 'wisq';
         var disqus_identifier = '{{ page.id | escape_javascript }}';
         var disqus_title = '{{ page.title | escape_javascript }}';
-        var disqus_url = '{{ page.url | escape_javascript }}';
+        var disqus_url = '{{ page.url | prepend: site.baseurl | prepend: site.url | escape_javascript }}';
 
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
