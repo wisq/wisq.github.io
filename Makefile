@@ -17,4 +17,7 @@ force_push: build bundle
 	bundle exec s3_website push --force
 
 serve: bundle
-	bundle exec jekyll serve --draft
+	bundle exec jekyll serve --drafts
+
+demo: bundle
+	bundle exec jekyll serve --drafts --host 0.0.0.0
