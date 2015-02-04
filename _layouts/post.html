@@ -36,9 +36,9 @@ layout: default
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'wisq';
-        var disqus_identifier = '{{ page.id }}';
-        var disqus_title = '{{ page.title }}';
-        var disqus_url = '{{ page.url }}';
+        var disqus_identifier = '{{ page.id | escape_javascript }}';
+        var disqus_title = '{{ page.title | escape_javascript }}';
+        var disqus_url = '{{ page.url | escape_javascript }}';
 
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
