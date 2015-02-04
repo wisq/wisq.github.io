@@ -19,7 +19,7 @@ ul a {
 	font-weight: bold;
 }
 
-span.note {
+.note {
 	font-style: italic;
 	font-size: smaller;
 }

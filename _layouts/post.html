@@ -33,8 +33,21 @@ layout: default
 
                 <hr>
 
-		<p style="font-style: italic; font-size: smaller">I'm currently debating whether to add a comment system or not.  Until I do, please <a href="/contact/">contact me directly</a> if you have something to say.  Do feel free to let me know what you think — about the article, or the site, or even just about whether I should add comments!</p>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'wisq';
+        var disqus_identifier = '{{ page.id }}';
+        var disqus_title = '{{ page.title }}';
+        var disqus_url = '{{ page.url }}';
 
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript><p class="note">FYI: To view comments, you'll need to enable JavaScript.  Or you can just <a href="/contact/">contact me directly</a> if you prefer.</p></noscript>
+    
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
