@@ -172,7 +172,7 @@ There were some screw-ups on my part.  For example, I messed up some docking por
 
 We're also still sitting in a ring of debris that threatens to kill us.  Sure, it's only *threatening* that — for the most part, it's completely harmless.  But I don't really want to be there when some debris comes in and tears the station apart.
 
-And finally, we have the ability to build truly collosal things now.  *Origin* was a fun effort, a good experiment, and a great learning experience — but why settle for a station assembled in pieces from an earlier time when that was the only way?
+And finally, we have the ability to build truly colossal things now.  *Origin* was a fun effort, a good experiment, and a great learning experience — but why settle for a station assembled in pieces from an earlier time when that was the only way?
 
 ## The Next Generation
 
