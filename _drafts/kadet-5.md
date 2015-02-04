@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Space Kadet: TBD"
-subtitle:   "TBD"
-description: "Part five of my Space Kadet series, in which TBD"
-#date:       TBD
-author:     "Wisq"
-header-img: "img/kadet/005/header.jpg"
+layout:      post
+title:       "Space Kadet: Origin of the Space-ies"
+subtitle:    "Are we done lifting things into orbit?  My arms hurt."
+description: "Part five of my Space Kadet series, in which we build a space station … and then a second one."
+date:        2015-02-04 12:00:00 -0500
+author:      "Wisq"
+header-img:  "img/kadet/005/header.jpg"
 tags:
 - Kerbal Space Program
 - Space Kadet
@@ -16,7 +16,7 @@ tags:
 This is the fifth post of my highly-modded Kerbal Space Program playthrough.  The first is [here][kadet-1], and the previous is [here][kadet-4].
 </span>
 
-It's been a rough couple of weeks for the Space Kadet program.  But after launching several thousand tonnes of ships — and many, many lessons learned — Space Station "Origin" is finally complete.
+It's been a rough couple of weeks for the Space Kadet program.  But after launching several thousand tonnes of ships — and many, many lessons learned — Space Station "Origin" is finally complete.
 
 This is a long one, so buckle up and read on to watch me fumble my way to victory.  Eventually.
 
@@ -62,19 +62,19 @@ To deposit the payload (inside the fairings), we would
 
 We ended up launching a total of 19 Sky Kranes, and almost every one taught us something new:
 
-**Sky Krane 2** pointed out an interesting side effect of fairings — if anchored at both the top and bottom (as in the diagram above), they can provide significant structural stability.  When they auto-blew at 75km, the ship turned into a giant Space Slinky — it was bending nearly 180º and almost hitting itself!  Needless to say, we did a sub-orbital abort.
+**Sky Krane 2** pointed out an interesting side effect of fairings — if anchored at both the top and bottom (as in the diagram above), they can provide significant structural stability.  When they auto-blew at 75km, the ship turned into a giant Space Slinky — it was bending nearly 180º and almost hitting itself!  Needless to say, we did a sub-orbital abort.
 
 **Sky Krane 5** taught us that you can do a 360º backflip over the launchpad and still successfully make it into orbit.  We deploy the middle section, including the two hab rings.
 
 **Sky Kranes 6** and **7** demonstrated that aerodynamic issues can actually get worse as your ship gets lighter.  At the minimum, your ship must have at least one of high density, good aerodynamics, or a low thrust-to-weight ratio.  Trying to power your way through the atmosphere with a broad, light ship results in mayhem.
 
-**Sky Krane 8**'s long and costly correction burn is a reminder that we should've checked our inclination before dropping off the first base component (it was over 6º) — and, failing that, we should time and orient our launches to match the inclination, instead of launching in an equatorial orbit and correcting it later.  We dock our first wing to the station.
+**Sky Krane 8**'s long and costly correction burn is a reminder that we should've checked our inclination before dropping off the first base component (it was over 6º) — and, failing that, we should time and orient our launches to match the inclination, instead of launching in an equatorial orbit and correcting it later.  We dock our first wing to the station.
 
 **Sky Krane 10** reminded us how dangerous high-speed atmospheric aborts can be.  We lost our heat shield and one of the command pod's solar panels, but everyone survived.
 
 **Sky Krane 11** again showed off with a 360º backflip, but it also demonstrated the pitfall of waiting until we reach the station to discard our stages and fairings.  There's now a huge debris field on the same orbit as Origin Station, and due to a mis-click, we ended up rendezvousing with a discarded fairing rather than the station.  Thankfully, we had the fuel (and life support time) to readjust and meet the station.
 
-**Sky Krane 12** found an interesting use for the Mark 2 Lander Can — if you attach a large docking port to the large flat top, it can be very useful as a manned heavy station pusher.  We used it to correct the station's inclination burn, getting it to a perfect equatorial orbit.
+**Sky Krane 12** found an interesting use for the Mark 2 Lander Can — if you attach a large docking port to the large flat top, it can be very useful as a manned heavy station pusher.  We used it to correct the station's inclination burn, getting it to a perfect equatorial orbit.
 
 **Sky Kranes 13** and **14** finally show us that you can only push an unstable ship design so far before it's time for a rethink.  We're trying to lift a solar panel array, but it's far too light, and the ship doesn't have enough inertia to overcome the aerodynamic forces.
 
@@ -86,15 +86,15 @@ Time for a rethink.
 
 ![Mega Lifter 1](/img/kadet/005/mega-lifter-1.jpg "Mega Lifter 1")
 
-**Mega Lifter 1** shows off the value of the Hangar mod's "Multipurpose Resource Tank", basically a giant tank that you can edit and subdivide at will.  Weighing in at a total of 2147 tonnes, it allows us to get 117 tonnes of "RocketParts" to the station — enough to build 117 tonnes of ships — but due to the reconfigurability of the tank, it can potentially serve as a template for getting many different kinds of resources into orbit.  
+**Mega Lifter 1** shows off the value of the Hangar mod's "Multipurpose Resource Tank", basically a giant tank that you can edit and subdivide at will.  Weighing in at a total of 2147 tonnes, it allows us to get 117 tonnes of "RocketParts" to the station — enough to build 117 tonnes of ships — but due to the reconfigurability of the tank, it can potentially serve as a template for getting many different kinds of resources into orbit.
 
 ![Sky Krane 17](/img/kadet/005/sky-krane-17.jpg "Sky Krane 17")
 
-**Sky Krane 17** brings the orbital shipyard to the station.  Given how difficult it would be to abort or eject, it also marks our first use of the [Deployable Emergency Reentry Pod][DERP] (DERP) — basically a lifeboat with its own propulsion and parachute, and easy evacuation via a hotkey.  The ship is stable and we never need it, though, so I still don't have any hands-on experience with it.
+**Sky Krane 17** brings the orbital shipyard to the station.  Given how difficult it would be to abort or eject, it also marks our first use of the [Deployable Emergency Reentry Pod][DERP] (DERP) — basically a lifeboat with its own propulsion and parachute, and easy evacuation via a hotkey.  The ship is stable and we never need it, though, so I still don't have any hands-on experience with it.
 
 ![Sky Krane 18](/img/kadet/005/sky-krane-18.jpg "Sky Krane 18")
 
-**Sky Krane 18** demonstrates that our old Sky Krane design could be quite stable if you have only a few heavy components (and add some struts just in case).  It also redefines "dense," as that one little barrel contains 16 tonnes of machinery and 16 tonnes of spare parts for the life support systems — no wonder they're empty by default!
+**Sky Krane 18** demonstrates that our old Sky Krane design could be quite stable if you have only a few heavy components (and add some struts just in case).  It also redefines "dense," as that one little barrel contains 16 tonnes of machinery and 16 tonnes of spare parts for the life support systems — no wonder they're empty by default!
 
 We're out of docking ports, so I design this ship to be docked at both ends, sitting inbetween the station and an existing docked ship.  Those extra 1.25m docking ports are in case we need to dock anything else, and they pay off when we later need to add some temporary storage for the compost and biomass.  (Even temporary intermediate products need a place to stay.)
 
@@ -134,19 +134,19 @@ Having learned our lesson from the Docking Wing, there are a ton of Quantum Stru
 
 With the resources offloaded, we now seek to replace the Storage Wing with the **Omnidirectional Solar Array**, something I hope will provide enough power no matter what direction the sun is in, without rotating.  (Life support systems turn out to be an *incredible* power drain!)
 
-Unfortunately, it's a bust — the panels are great in certain orientations, but rapidly turn crappy again as they obscure each other.  Plus the part count is through the roof, adding tons of lag to an already laggy station.
+Unfortunately, it's a bust — the panels are great in certain orientations, but rapidly turn crappy again as they obscure each other.  Plus the part count is through the roof, adding tons of lag to an already laggy station.
 
-Instead, I try turning on the nuclear reactor, and I discover that it produces a ridiculous amount of power and will last us for years.  We're already having trouble with our high part count, so I decide to ditch the solar — we use its monopropellant to put it in a lower orbit, where it will become a (ridiculously overengineered) communications satellite instead.
+Instead, I try turning on the nuclear reactor, and I discover that it produces a ridiculous amount of power and will last us for years.  We're already having trouble with our high part count, so I decide to ditch the solar — we use its monopropellant to put it in a lower orbit, where it will become a (ridiculously overengineered) communications satellite instead.
 
 ## Science!
 
 With our power crisis solved and the labs now in operation, we're finally able to begin doing some orbital science.
 
-All of the experiments involve some combination of Eurekas (from scientists in the Science Lab), Kuarks (from the Cyclotrons), and Bio-Products (from the Zoology Bay, and almost certainly a euphemism for poop).  In general, you start the experiment, accumulate the correct number of these — Kuarks decay, so you need a certain minimum production — and then finalise the results, where the experiment becomes unusable and you get a standard science report.
+All of the experiments involve some combination of Eurekas (from scientists in the Science Lab), Kuarks (from the Cyclotrons), and Bio-Products (from the Zoology Bay, and almost certainly a euphemism for poop).  In general, you start the experiment, accumulate the correct number of these — Kuarks decay, so you need a certain minimum production — and then finalise the results, where the experiment becomes unusable and you get a standard science report.
 
 The standard Station Science experiments normally only give you 20% for transmitting, but our Science Bay lets us process these for 5x the value, so we're able to transmit these home and then discard them to a lower orbit.  The Fuel Science experiments are only 10% value and would only net us 50% if processed locally, so we send those back to Kerbin with a parachute and pick them up.
 
-Meanwhile, maintaining the animals in the Zoology Bay is providing a slow trickle of Science — about <span class="science">1</span> Science per day, but with diminishing returns over time.
+Meanwhile, maintaining the animals in the Zoology Bay is providing a slow trickle of Science — about <span class="science">1</span> Science per day, but with diminishing returns over time.
 
 So what technologies do we buy with all this Science?
 
@@ -162,7 +162,7 @@ Getting ion also unlocks a xenon-based fuel experiment, which gets us another <s
 
 ![Origin Station](/img/kadet/005/origin-1.jpg "Origin Station")
 
-So in the end, we have our completed space station … but I'm not particularly happy with it.
+So in the end, we have our completed space station … but I'm not particularly happy with it.
 
 For one, the lag is awful.  That's partly because the base is big and does a lot of things at once, but also partly because it's assembled in space and is a bit haphazard, not to mention all the inter-wing docking ports.  I know there's some inherent KSP lag just from having ships or stations with large part counts, and my extensive mod list probably just makes that worse.
 
@@ -170,9 +170,9 @@ With the technology now at hand, we have the ability to use the Logistics Hub, a
 
 There were some screw-ups on my part.  For example, I messed up some docking ports in the Science Wing, so Kerbals have to EVA to get past the Cyclotrons.  And I didn't have ion engine technology when I built it, so I don't have any xenon storage whatsoever, which is important for probes.
 
-We're also still sitting in a ring of debris that threatens to kill us.  Sure, it's only *threatening* that — for the most part, it's completely harmless.  But I don't really want to be there when some debris comes in and tears the station apart.
+We're also still sitting in a ring of debris that threatens to kill us.  Sure, it's only *threatening* that — for the most part, it's completely harmless.  But I don't really want to be there when some debris comes in and tears the station apart.
 
-And finally, we have the ability to build truly collosal things now.  *Origin* was a fun effort, a good experiment, and a great learning experience — but why settle for a station assembled in pieces from an earlier time when that was the only way?
+And finally, we have the ability to build truly collosal things now.  *Origin* was a fun effort, a good experiment, and a great learning experience — but why settle for a station assembled in pieces from an earlier time when that was the only way?
 
 ## The Next Generation
 
@@ -180,17 +180,17 @@ And finally, we have the ability to build truly collosal things now.  *Origin* w
 
 And so, **Origin 2** was born.
 
-It's a trimmed down, more compact version of the original — at only 78m long, I was able to design and build the entire thing as a single piece.  It weighs in at 244 tonnes dry weight, but once fully loaded, it's over 1500 tonnes.
+It's a trimmed down, more compact version of the original — at only 78m long, I was able to design and build the entire thing as a single piece.  It weighs in at 244 tonnes dry weight, but once fully loaded, it's over 1500 tonnes.
 
 All the life support components are gone, replaced with giant life support tanks that provide enough to supply my current 11 Kerbals for over 77 years.  The station can hold 42 Kerbals, though the practical limit is 20 due to the habitat rings; any more will involve taking shifts or dealing with highly unfit Kerbals.
 
-The total RocketPart capacity is about 353 tonnes — enough to build the entire station over again, if need be — and ensures we won't need to resupply too often.
+The total RocketPart capacity is about 353 tonnes — enough to build the entire station over again, if need be — and ensures we won't need to resupply too often.
 
 The nuclear reactor provides power for the entire structure, and the station has enough nuclear fuel to last almost a thousand years(!) at the current load.
 
 Station orientation is provided by way of four "Vernor" thrusters at each end of the station, using fuel instead of monopropellant.  This is partly because we have much bigger fuel tanks than monopropellant tanks, but also because it gives us twelve times the power per thruster compared to regular RCS.
 
-The station's 90k units of xenon and giant ion engine allow us to boost up from a 1000km orbit to a 1500km orbit, safely clearing ourselves from the 1000km debris field — albeit costing half our entire fuel tank for just 180 m/s delta-v!  I'll definitely be holding myself to a strict "no debris" policy from this point onwards.
+The station's 90k units of xenon and giant ion engine allow us to boost up from a 1000km orbit to a 1500km orbit, safely clearing ourselves from the 1000km debris field — albeit costing half our entire fuel tank for just 180 m/s delta-v!  I'll definitely be holding myself to a strict "no debris" policy from this point onwards.
 
 And finally, the habitat wheels are counter-rotating, meaning we're no longer weirdly violating the conservation of angular momentum or whatever.  Yay proper physics!
 
@@ -213,8 +213,4 @@ Either way, it's looking like we'll be launching a lot of small craft in the nea
 [kadet-1]: /2014/12/31/kadet-1/ "Space Kadet: First Flight — Wisq.net"
 [kadet-4]: /2015/01/12/kadet-4/ "Space Kadet: Fetch Quests — Wisq.net"
 
-[end]: #are-we-there-yet "Are We There Yet?"
-
 [DERP]: http://forum.kerbalspaceprogram.com/threads/84359 "USI Survivability Pack — KSP Forum"
-[kraken]: http://wiki.kerbalspaceprogram.com/wiki/Deep_Space_Kraken "Deep Space Kraken — KSP Wiki"
-[AGX]: http://forum.kerbalspaceprogram.com/threads/74195 "Action Groups Extended — KSP Forum"
