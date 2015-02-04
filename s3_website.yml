@@ -1,6 +1,7 @@
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: wisq.net
+cloudfront_distribution_id: E207AK80NEVLR9
 
 # Below are examples of all the available configurations.
 # See README for more detailed info on each of them.
@@ -43,7 +44,7 @@ ignore_on_server:
 #       CNAME: your.website.com
 
 # Invalidate /x/ instead of /x/index.html
-#cloudfront_invalidate_root: true
+cloudfront_invalidate_root: true
 
 # concurrency_level: 5
 
