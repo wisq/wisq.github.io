@@ -13,7 +13,7 @@ tags:
 ---
 
 <span class="note">
-This is the fifth post of my highly-modded Kerbal Space Program playthrough.  The first is [here][kadet-1], and the previous is [here][kadet-4].
+This is the fifth post of my highly-modded Kerbal Space Program playthrough.  The first is [here][kadet-1], the previous is [here][kadet-4], and an index of all posts is [here][space-kadet].
 </span>
 
 It's been a rough couple of weeks for the Space Kadet program.  But after launching several thousand tonnes of ships — and many, many lessons learned — Space Station "Origin" is finally complete.
@@ -184,15 +184,23 @@ It's a trimmed down, more compact version of the original — at only 78m long,
 
 All the life support components are gone, replaced with giant life support tanks that provide enough to supply my current 11 Kerbals for over 77 years.  The station can hold 42 Kerbals, though the practical limit is 20 due to the habitat rings; any more will involve taking shifts or dealing with highly unfit Kerbals.
 
-The total RocketPart capacity is about 353 tonnes — enough to build the entire station over again, if need be — and ensures we won't need to resupply too often.
-
-The nuclear reactor provides power for the entire structure, and the station has enough nuclear fuel to last almost a thousand years(!) at the current load.
+![Origin 2 in space](/img/kadet/005/origin-2-space.jpg "Origin 2 in space")
 
 Station orientation is provided by way of four "Vernor" thrusters at each end of the station, using fuel instead of monopropellant.  This is partly because we have much bigger fuel tanks than monopropellant tanks, but also because it gives us twelve times the power per thruster compared to regular RCS.
 
 The station's 90k units of xenon and giant ion engine allow us to boost up from a 1000km orbit to a 1500km orbit, safely clearing ourselves from the 1000km debris field — albeit costing half our entire fuel tank for just 180 m/s delta-v!  I'll definitely be holding myself to a strict "no debris" policy from this point onwards.
 
+The total RocketPart capacity is about 353 tonnes — enough to build the entire station over again, if need be — and ensures we won't need to resupply too often.
+
+<span class="image-right">
+![Origin 2 rotating hab rings](/img/kadet/005/origin-2-rotating.gif "Origin 2 rotating hab rings")
+</span>
+
+The nuclear reactor provides power for the entire structure, and the station has enough nuclear fuel to last almost a thousand years(!) at the current load.
+
 And finally, the habitat wheels are counter-rotating, meaning we're no longer weirdly violating the conservation of angular momentum or whatever.  Yay proper physics!
+
+<div class="clear"/>
 
 ## Onwards!
 
@@ -212,5 +220,6 @@ Either way, it's looking like we'll be launching a lot of small craft in the nea
 
 [kadet-1]: /2014/12/31/kadet-1/ "Space Kadet: First Flight — Wisq.net"
 [kadet-4]: /2015/01/12/kadet-4/ "Space Kadet: Fetch Quests — Wisq.net"
+[space-kadet]: /tag/Space Kadet/ "Tag: Space Kadet — Wisq.net"
 
 [DERP]: http://forum.kerbalspaceprogram.com/threads/84359 "USI Survivability Pack — KSP Forum"
