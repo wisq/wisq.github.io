@@ -2,9 +2,23 @@
 	display: inline;
 }
 
-.image-right img {
+.image-right img, figure.right {
 	float: right;
 	margin-left: 10px;
+}
+
+figure.right {
+	font-size: smaller;
+	font-style: italic;
+	text-align: center;
+}
+
+.underhead {
+	margin-top: 30px;
+}
+
+.image-200 img {
+	width: 200px;
 }
 
 .clear, hr {
