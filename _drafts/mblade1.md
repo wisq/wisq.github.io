@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       "Mount & Blade: Hammer Time"
+title:       "Mount & Blade: Hammer Time"
 subtitle:    "Thor's adventures in Calradia"
 description: "Assorted stories from a superhuman playthrough of a Mount & Blade: Warband modpack."
 date:        2015-04-13 12:00:00 -0500
@@ -13,18 +13,16 @@ tags:
 ---
 
 <span class="note">
-If you're wondering what happened to my [Space Kadet][space-kadet] series, it's on indefinite hold due to technical issues — I've hit the 4GB memory limit and need to wait for a stable Windows 64-bit Kerbal build.  In the mean time, I've been playing other things …
+If you're wondering what happened to my [Space Kadet][space-kadet] series, it's on indefinite hold due to technical issues — I've hit the 4GB memory limit and need to wait for a stable Windows 64-bit Kerbal build.  In the mean time, I've been playing other things …
 </span>
 
-If you're not familiar with the Mount & Blade series, it's a sort of medieval mercenary/lord simulator set in a fictional world that takes many inspirations from our own.
+If you're not familiar with the Mount & Blade series, it's a sort of medieval mercenary/lord simulator set in a fictional world that takes many inspirations from our own.  You play as an individual within this world, with the ability to recruit soldiers, trade as a merchant, rule as a lord under a king, or even become king of your own nation.
 
-You play as an individual within this world, with the ability to recruit soldiers, trade as a merchant, rule as a lord under a king, or even become king of your own nation.
+Play occurs mainly in an overland map, where you roam with your party.  Here, you can visit towns, dodge or harass bandits, make friends or enemies, and handle the money-making, political, and personal aspects.
 
-Play occurs mainly in an overland map, where you roam with your party.  Here, you can visit towns, make friends or enemies, and handle the money-making, political, and personal aspects.
+Combat occurs when your party meets another and one or both choose to fight, when you siege or defend a town or castle, or in other events such as tournaments or bandit ambushes.  It's a realtime first- or third-person affair focusing on strikes and blocks and archery, with the ability to issue tactical orders to your troops.
 
-Combat occurs when your party meets another and one or both choose to fight, when you siege or defend a town or castle, or in other events such as tournaments or bandit ambushes.  It's a real-time first- or third-person affair focusing on strikes and blocks and archery, with the ability to issue tactical orders to your troops.
-
-There are (as of [M&B: Warband][warband]) six different factions warring for the continent of Calradia, each loosely based on one or more real-world medieval-era cultures:
+As of [Mount & Blade: Warband][warband], there are six different factions warring for the continent of Calradia, each loosely based on one or more real-world medieval-era cultures:
 
 * the Khergit Khanate, steppe horse riders based mostly on the Mongols but with some Japanese influences
 * the Rhodoks, a pike- and crossbow-wielding defensive southerly kingdom based on the various Scandinavian alpine cultures
@@ -37,11 +35,11 @@ That last one piqued my interest the most.  There's always been a certain "cool 
 
 ## The leader problem
 
-When I first started playing, I quickly found myself annoyed by the skill system, which strongly pushes you towards the "charismatic leader" archetype.  Your attributes — strength, agility, intelligence, charisma — place a hard limit on how high your skills can go, meaning that you'll need to choose what you want to be good at from the outset and focus only on that.
+When I first started playing, I quickly found myself annoyed by the skill system, which strongly pushes you towards the "charismatic leader" archetype.  Your attributes — strength, agility, intelligence, charisma — place a hard limit on how high your skills can go, meaning that you'll need to choose what you want to be good at from the outset and focus only on that.
 
-All of the critical leader skills are intelligence- and charisma-based.  If you go the strength/agility route, you're just one extra soldier, and that doesn't mean a whole lot in a party of 100 soldiers.  But *unless* you focus on strength and agility, you'll never be particularly good at combat — or particularly durable, since your hitpoints are based on your strength, and on Ironflesh, a strength-based skill.  And, in the vanilla (unmodded) game, if you go down, the battle ends on the spot.
+All of the critical leader skills are intelligence- and charisma-based.  If you go the strength & agility route, you're just one extra soldier, and that doesn't mean a whole lot in a party of 100 soldiers.  But if you **don't** focus on strength and agility, you'll never be particularly good at combat — or particularly durable, since your hitpoints are based on your strength, and on Ironflesh, a strength-based skill.  And, in the vanilla (unmodded) game, if you go down, the battle ends on the spot.
 
-This is not a game that expects you to be a Leonidas or a William Wallace.  You're either a leader or a fighter, and if you insist on being a hybrid of the two, you won't be very useful as either.  
+This is not a game that expects you to be a Hollywood action hero leader like Leonidas or a William Wallace.  You're either a leader or a fighter, and if you insist on being a hybrid of the two, you won't be very useful as either.
 
 But why be limited by the standard skill system?  The game offers the ability to edit and import your character, and I've got plenty of memory hacking tools besides.  So I set out to make a character that could be both a leader and a fighter, and whose could have epic "up close and personal" fights without dying every few seconds.
 
@@ -54,35 +52,35 @@ My first version of Thor wasn't particularly exciting.  He had his "hammer" (a t
 <figcaption>Thor 2.0</figcaption>
 </figure>
 
-After a few other character concepts, along with learning more about the game and the options available to me, I gave the Thor concept another go.  I was now using the excellent [Tocan's Calradia][tocans] modpack, but I edited the pack myself in order to add Thor's hammer, Mjölnir, a one-handed heavy throwing hammer.
+After a few other character concepts, along with learning more about the game and the options available to me, I gave the Thor concept another go.  I had started using the excellent [Tocan's Calradia][tocans] modpack, but I edited the pack myself in order to add Thor's hammer, Mjölnir, a one-handed heavy throwing hammer.
 
-It wasn't perfect — it was considerably longer than the movie version (needed in order to reach enemies in melee), my thrown hammers could still be seen sticking out of walls and enemy bodies (despite the comic book notion that it returned to him after each throw), and I could only throw it 250 times per fight (I only had 8 bits to work with).  But I think I captured the gist of it.
+It wasn't perfect — it was considerably longer than the movie version (needed in order to reach enemies in melee), my thrown hammers could still be seen sticking out of walls and enemy bodies (despite the comic book notion that it returned to him after each throw), and I could only throw it 250 times per fight (I only had 8 bits to work with).  But I think I captured the gist of it.
 
 Still, he wouldn't be getting Mjölnir immediately.  Modelling him after the movie version, I had him appear naked (okay, I misremembered), unarmed, and penniless, on the Nord peninsula near Wercheg.
 
 ![Nord peninsula](/img/2015/04/mblade1/peninsula.jpg)
 
-His strength (and thus, his maximum health) was off the charts — but I didn't touch his **current** health, meaning he started almost "dead" (unconscious) and would take several weeks or months to recover.
+His strength (and thus, his maximum health) was off the charts — but I didn't touch his **current** health, meaning he started almost "dead" (unconscious) and would take several weeks or months to recover.
 
-In order to prove his worth and (re)gain Mjölnir, he would have to prove himself worthy.  Lacking any sort of grand plot to prove himself on, I decided that he would need to find love — or in more concrete terms, successfully woo and marry one of the eligible ladies of the kingdoms.
+In order to prove his worth and (re)gain Mjölnir, he would have to prove himself worthy.  Lacking any sort of grand plot to prove himself on, I decided that he would need to find love — or in more concrete terms, successfully woo and marry one of the eligible ladies of the kingdoms.
 
 ## Humble beginnings
 
 Moving carefully so as to avoid encountering Sea Raiders (coastal bandits) and getting kidnapped in his weakened state, I had Thor make his way to Wercheg.  With no food, no money, and no ability to take on the large bandit parties, he needed a quick way to eat.
 
-The arena fights were a good start, since knocking out a certain number of enemies would earn him a few dozen denars (currency), enough for  a loaf of bread.  Beating them all would net him 250 denars, but even though he could beat each in one or two strikes, there was no real way for him to last that long in his current state.  He could use his winnings to rent a room at the inn for a few weeks to recover, but that just didn't feel right — Thor is a man of *action*, damnit.
+The arena fights were a good start, since knocking out a certain number of enemies would earn him a few dozen denars (currency), enough for  a loaf of bread.  Beating them all would net him 250 denars, but even though he could beat each in one or two strikes, there was no real way for him to last that long in his current state.  He could use his winnings to rent a room at the inn for a few weeks to recover, but that just didn't feel right — Thor is a man of *action*, damnit.
 
-In need of a safe place to heal up and gain some early combat experience, I decided that Thor would take advantage of a new feature available as part of the [Freelancer][freelancer] mod (part of the *Tocan's Calradia* pack) — he would enlist in the army of the local lord.
+In need of a safe place to heal up and gain some early combat experience, I decided that Thor would take advantage of a new feature available as part of the [Freelancer][freelancer] mod (part of the *Tocan's Calradia* pack) — he would enlist in the army of the local lord.
 
 As a freelancer, I would lose almost all control of Thor in the overland mode.  In exchange, I would be paid, fed, equipped, and sent into battle with about a hundred other troops on my side.  I would receive a portion of the loot from battles, which I could sell to build my own finances.  I would visit towns where I could make business deals and participate in local tournaments, perhaps with a bit of betting on the side.  And I would be travelling in a group, keeping me safe from the numerous bandits.
 
 It took a bit of practice to learn how far to extend myself in combat.  It was important to get some kills for the experience, but equally important to stay alive so I got to take part in the looting afterwards and not be cripplingly low on health for the next battle.
 
-Occasionally, our army would be defeated and I would be taken prisoner.  I would eventually escape from this and head back to Nord territory to enlist in another lord's army — if I took more than a generous two weeks to return, I would be considered a deserter and be treated as an enemy to all.
+Occasionally, our army would be defeated and I would be taken prisoner.  I would eventually escape from this and head back to Nord territory to enlist in another lord's army — if I took more than a generous two weeks to return, I would be considered a deserter and be treated as an enemy to all.
 
-Once I become healthy enough to take on most threats, tournaments were the main money-maker — but only because I had enough money (from selling loot and previous tournaments) to afford to bet heavily on myself.  Betting 500 per round on a full 6-round tournament could gross me just over 20,000 denars, albeit minus the 3,000 denars I spent for the bets.  
+Once I become healthy enough to take on most threats, tournaments were the main money-maker — but only because I had enough money (from selling loot and previous tournaments) to afford to bet heavily on myself.  Betting 500 per round on a full 6-round tournament could gross me just over 20,000 denars, albeit minus the 3,000 denars I spent for the bets.
 
-Perhaps more importantly, winning these tournaments let me visit the feast at the castle afterwards — something I normally wasn't allowed, being a commoner.  Feasts are an excellent way to meet prospective brides, and it was here that I met Lady Aesa.
+Perhaps more importantly, winning these tournaments let me visit the feast at the castle afterwards — something I normally wasn't allowed, being a commoner.  Feasts are an excellent way to meet prospective brides, and it was here that I met Lady Aesa.
 
 ## Courtship
 
@@ -91,13 +89,13 @@ Perhaps more importantly, winning these tournaments let me visit the feast at th
 <figcaption>Lady Aesa</figcaption>
 </figure>
 
-Never mind all those ladies in their fancy dresses and headscarves and whatnot.  Lady Aesa looked like the sort of bride I wanted for Thor — no nonsense, dressed for business in her nomad robes and leather boots.
+Never mind all those ladies in their fancy dresses and headscarves and whatnot.  Lady Aesa looked like the sort of bride I wanted for Thor — no nonsense, dressed for business in her nomad robes and leather boots.
 
-I quickly ducked out of the party to visit the tavern to see what the local travelling bard knew about her, and he confirmed my hopes — she was an adventurous sort, not afraid to get her hands dirty with a bit of hunting and fighting.
+I quickly ducked out of the party to visit the tavern to see what the local travelling bard knew about her, and he confirmed my hopes — she was an adventurous sort, not afraid to get her hands dirty with a bit of hunting and fighting.
 
 Returning to the feast, I immediately professed my admiration for her and dedicated my tournament victory to her.  We visited several times, but she always had a nurse smuggle me to her in disguise, as her brother (Jarl Turegor) did not approve of the relationship.
 
-By this point, I had achieved the top rank in the army — a Nord Huscarl — and chosen to retire from service.  I had enough money to go on my own, and now owned several businesses that could keep me in good financial standing.  I hired myself a small army, including some NPCs to fill in for the skills I lacked.  Officially, I was allied with no one; unofficially, I was on good terms with the Nords and tended to do most of my work for them.
+By this point, I had achieved the top rank in the army — a Nord Huscarl — and chosen to retire from service.  I had enough money to go on my own, and now owned several businesses that could keep me in good financial standing.  I hired myself a small army, including some NPCs to fill in for the skills I lacked.  Officially, I was allied with no one; unofficially, I was on good terms with the Nords and tended to do most of my work for them.
 
 It was during a Nord siege on Praven that I finally encountered Jarl Turegor and asked him why he wouldn't let us marry.  His objection was that I was not a vassal lord and thus he could not trust me to be able to take care of her.  I had intended to stay independent and eventually start my own kingdom, but getting on Jarl Turegor's good side was taking too long, and there was no guarantee he would ever relent.
 
@@ -115,7 +113,7 @@ This also meant she would enter into combat with us, or into tournaments, and sh
 
 A lot of Mount & Blade happens via menus, but often you need to physically visit a town or village to get something done in person.  I had done this hundreds of times in the past, always alone.  So you can imagine my surprise when I went to visit a town's Guild Master and found Lady Aesa running around the town with me!
 
-Turns out, one of my mods provided a "bodyguard" feature: To help defend you against bandit ambushes — thus punishing you less if you chose to make a non-combat character — once you reached a certain level of renown, members of your party would appear as your bodyguards whenever you would otherwise appear solo in a potentially dangerous place.
+Turns out, one of my mods provided a "bodyguard" feature: To help defend you against bandit ambushes — thus punishing you less if you chose to make a non-combat character — once you reached a certain level of renown, members of your party would appear as your bodyguards whenever you would otherwise appear solo in a potentially dangerous place.
 
 I've since gained enough renown that I have four bodyguards instead of just the one.  But I'll never forget the moment when I discovered that my wife was now my bodyguard as well.
 
@@ -125,7 +123,7 @@ I've since gained enough renown that I have four bodyguards instead of just the 
 
 ![Haen](/img/2015/04/mblade1/haen.jpg)
 
-When Thor became a Nord Lord, he was granted a fief in the form of Haen, a small village just outside the town of Tihr.  The Nord king hasn't offered him anything since, but Thor also hasn't asked for anything — I'm holding out for a strategic castle or town, and the more minor holdings I have, the lower my odds of getting the major one I want.
+When Thor became a Nord Lord, he was granted a fief in the form of Haen, a small village just outside the town of Tihr.  The Nord king hasn't offered him anything since, but Thor also hasn't asked for anything — I'm holding out for a strategic castle or town, and the more minor holdings I have, the lower my odds of getting the major one I want.
 
 Still, despite Haen being just a stepping stone to something greater, it's still mine, and I've treated it well.  I've paid for various improvements, such as a mill (to improve prosperity), a messenger post (to alert me if an enemy loots them), and a watch tower and palisade (to hold back the enemy and give me time to ride to their rescue).
 
@@ -135,11 +133,11 @@ At one point during our war with Swadia, I was charged with bringing cattle to s
 
 As I herded our newfound cattle and tried to figure out where our army had gone, they sent word that they had called off the campaign and no longer needed the cattle.  Well, crap.  Unsure what to do with this (admittedly large) herd of stolen cattle, I began heading back to my village.
 
-That's when I got word that Count Devlian — the Lord of the village I had stolen the cattle from — had just finished looting and burning my village of Haen.
+That's when I got word that Count Devlian — the Lord of the village I had stolen the cattle from — had just finished looting and burning my village of Haen.
 
 Cattle forgotten, I rushed back to Haen to smite these evildoers.  Count Devlian managed to escape our first confrontation, so I rode south and burned his village in return.  I managed to capture him on our second encounter, and although he escaped before I could ransom him, I decided that justice had been done.
 
-Now, looting and razing villages is a fairly standard wartime activity in Mount & Blade, so I'll never know if Devlian had it out for me personally, or if it was just pure coincidence that he hit my village so soon after I stole from his.  But honestly, I don't care — even if it's coincidental, these are the kinds of stories I love being a part of.
+Now, looting and razing villages is a fairly standard wartime activity in Mount & Blade, so I'll never know if Devlian had it out for me personally, or if it was just pure coincidence that he hit my village so soon after I stole from his.  But honestly, I don't care — even if it's coincidental, these are the kinds of stories I love being a part of.
 
 I never did find that lost band of stolen cattle.  I still wonder what happened to them.
 
@@ -165,7 +163,7 @@ And then, magic happened: Instead of giving Bariyye back to Emir Atis, the Sarra
 
 (In Mount & Blade, "indicted for treason" is code for "the king wants to get rid of you", which is usually because you have bad relations with him.  Jeez, I can't imagine why Emir Atis might resent his king!)
 
-At the time, aside from having a good laugh, I felt a bit bad for the Emir — I'd achieved revenge well beyond any reasonable grounds and this was edging on just plain vindictive, albeit beyond my control.  But life went on, and I forgot about the incident.
+At the time, aside from having a good laugh, I felt a bit bad for the Emir — I'd achieved revenge well beyond any reasonable grounds and this was edging on just plain vindictive, albeit beyond my control.  But life went on, and I forgot about the incident.
 
 Months later, the war with the Sarranids was still ongoing, even though I hadn't heard of a single incursion or military action on either side.  It was a War In Name Only, with nothing really happening.
 
@@ -183,7 +181,7 @@ All told, I have to say that I *strongly* recommend [Tocan's Calradia][tocans] a
 
 It took me trying a few different modpacks to settle on this one.  I quite like the visuals and the no-magic setting of Mount & Blade, and it seemed like most of the mod packs either wanted to introduce fantasy elements, and/or make everything look gritty and realistic.
 
-Tocan's pack gives you a ton of new stuff to do while not changing the core game.  It consists mainly of the three biggest M&B mods — [Diplomacy][diplomacy], [Pre-Battle Orders and Deployment][pbod], and [Freelancer][freelancer] — while also adding a lot of fun little content.
+Tocan's pack gives you a ton of new stuff to do while not changing the core game.  It consists mainly of the three biggest M&B mods — [Diplomacy][diplomacy], [Pre-Battle Orders and Deployment][pbod], and [Freelancer][freelancer] — while also adding a lot of fun little content.
 
 There are a ton of new NPCs and people to meet in taverns, and even some new places to visit.  The Salt Mine provides a place to put prisoners and have them earn you ongoing money, rather than selling them for an immediate ransom.  The banking system lets you borrow and repay money, or buy land and make money by renting it.  New kinds of bandits roam the lands.  You can even buy ships and sail them around between port cities.
 
@@ -196,8 +194,8 @@ And keep in mind, I didn't even think to start recording until after we'd alread
 Unless you're running a "twink" character like Thor, you may want to be decently versed in the base game before you try this mod pack.  But if you're a Mount & Blade player (and you should be!) who's seen it all and wants to inject some more life into this wonderful game, give this pack a shot.
 
 [space-kadet]: /tag/Space Kadet/ "Tag: Space Kadet — Wisq.net"
-[warband]: http://store.steampowered.com/app/48700/ "Mount & Blade: Warband — Steam"
-[tocans]: http://forums.taleworlds.com/index.php?topic=259795.0 "Tocan's Calradia — TaleWorlds Forum"
-[diplomacy]: http://forums.taleworlds.com/index.php/board,176.0.html "Diplomacy — TaleWorlds Forum"
-[pbod]: http://forums.taleworlds.com/index.php?topic=142816.0 "Pre-Battle Orders & Deployment — TaleWorlds Forum"
-[freelancer]: http://forums.taleworlds.com/index.php?board=232.0 "Freelancer — TaleWorlds Forum"
+[warband]: http://store.steampowered.com/app/48700/ "Mount & Blade: Warband — Steam"
+[tocans]: http://forums.taleworlds.com/index.php?topic=259795.0 "Tocan's Calradia — TaleWorlds Forum"
+[diplomacy]: http://forums.taleworlds.com/index.php/board,176.0.html "Diplomacy — TaleWorlds Forum"
+[pbod]: http://forums.taleworlds.com/index.php?topic=142816.0 "Pre-Battle Orders & Deployment — TaleWorlds Forum"
+[freelancer]: http://forums.taleworlds.com/index.php?board=232.0 "Freelancer — TaleWorlds Forum"
