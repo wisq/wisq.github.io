@@ -7,9 +7,8 @@ date:        2015-04-13 12:00:00 -0500
 author:      "Wisq"
 header-img:  "img/2015/04/mblade1/header.jpg"
 tags:
-- Kerbal Space Program
-- Space Kadet
-- playthrough
+- "Mount & Blade"
+- "Mount & Blade: Warband"
 ---
 
 <span class="note">
@@ -22,7 +21,7 @@ Play occurs mainly in an overland map, where you roam with your party.  Here, yo
 
 Combat occurs when your party meets another and one or both choose to fight, when you siege or defend a town or castle, or in other events such as tournaments or bandit ambushes.  It's a realtime first- or third-person affair focusing on strikes and blocks and archery, with the ability to issue tactical orders to your troops.
 
-As of [Mount & Blade: Warband][warband], there are six different factions warring for the continent of Calradia, each loosely based on one or more real-world medieval-era cultures:
+With the release of [Mount & Blade: Warband][warband], there are now six different factions warring for the continent of Calradia, each loosely based on one or more real-world medieval-era cultures:
 
 * the Khergit Khanate, steppe horse riders based mostly on the Mongols but with some Japanese influences
 * the Rhodoks, a pike- and crossbow-wielding defensive southerly kingdom based on the various Scandinavian alpine cultures
@@ -62,7 +61,7 @@ Still, he wouldn't be getting Mjölnir immediately.  Modelling him after the mov
 
 His strength (and thus, his maximum health) was off the charts — but I didn't touch his **current** health, meaning he started almost "dead" (unconscious) and would take several weeks or months to recover.
 
-In order to prove his worth and (re)gain Mjölnir, he would have to prove himself worthy.  Lacking any sort of grand plot to prove himself on, I decided that he would need to find love — or in more concrete terms, successfully woo and marry one of the eligible ladies of the kingdoms.
+In order to (re)gain Mjölnir, he would have to prove himself worthy.  Lacking any sort of grand plot to prove himself on, I decided that he would need to find love — or in more concrete terms, successfully woo and marry one of the eligible ladies of the kingdoms.
 
 ## Humble beginnings
 
@@ -159,11 +158,11 @@ I knew I wanted revenge, but Emir Atis was the lord of the town of Bariyye.  A t
 
 It wasn't important that I hold onto Bariyye.  It's far away and hard to defend, and would have just been a drain on our forces.  I left without bothering to defend it, having made my point to my satisfaction.  The Sarranids retook it.
 
-And then, magic happened: Instead of giving Bariyye back to Emir Atis, the Sarranid king, Sultan Hakim, decided to keep it for himself.  Emir Atis was now the lord of nothing.  Shortly thereafter, he was indicted for treason and forced to flee to another kingdom!
+And then, magic happened: Instead of giving Bariyye back to Emir Atis, the Sarranid king, Sultan Hakim, decided to keep it for himself.  Emir Atis was now the lord of nothing.  Less than a week after that, he was indicted for treason and forced to flee to another kingdom!
 
 (In Mount & Blade, "indicted for treason" is code for "the king wants to get rid of you", which is usually because you have bad relations with him.  Jeez, I can't imagine why Emir Atis might resent his king!)
 
-At the time, aside from having a good laugh, I felt a bit bad for the Emir — I'd achieved revenge well beyond any reasonable grounds and this was edging on just plain vindictive, albeit beyond my control.  But life went on, and I forgot about the incident.
+At the time, aside from having a good laugh, I felt a bit bad for the (ex-)Emir — I'd achieved revenge well beyond any reasonable grounds and this was edging on just plain vindictive, albeit beyond my control.  But life went on, and I forgot about the incident.
 
 Months later, the war with the Sarranids was still ongoing, even though I hadn't heard of a single incursion or military action on either side.  It was a War In Name Only, with nothing really happening.
 
@@ -191,7 +190,11 @@ Also, the new castles are **amazing**.  Here's Thor smashing his way through one
 
 And keep in mind, I didn't even think to start recording until after we'd already had an epic run through a giant courtyard, arrows raining down on us as we ran towards the first ladder.  This is a *huge* improvement over vanilla castles, which are just a wall and then a small yard.
 
-Unless you're running a "twink" character like Thor, you may want to be decently versed in the base game before you try this mod pack.  But if you're a Mount & Blade player (and you should be!) who's seen it all and wants to inject some more life into this wonderful game, give this pack a shot.
+Unless you're running a "twink" character like Thor, you may want to be decently versed in the base game before you try this mod pack.  But if you're a Mount & Blade player (and you should be!) and you've seen it all and want to inject some more life into this wonderful game, give this pack a shot.
+
+<span class="note">
+If you're looking to pick up Mount & Blade, be sure to grab [Mount & Blade: Warband][warband].  It's the exact same game but with more content, and with a multiplayer mode.  The other games in the series are set in alternate time periods, but Warband is more akin to a re-release of Mount & Blade, making the original obsolete.
+</span>
 
 [space-kadet]: /tag/Space Kadet/ "Tag: Space Kadet — Wisq.net"
 [warband]: http://store.steampowered.com/app/48700/ "Mount & Blade: Warband — Steam"
