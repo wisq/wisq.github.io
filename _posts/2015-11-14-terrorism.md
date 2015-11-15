@@ -2,7 +2,7 @@
 layout:      post
 title:       "Respond kindly, not in kind"
 subtitle:    "When you strike back, the terrorists win."
-description: "TBD"
+description: "My thoughts on Beirut, Paris, ISIS, and terrorism."
 date:        2015-11-15 11:30:00 -0500
 author:      "Wisq"
 header-img:  "img/2015/11/terrorism/header.jpg"
