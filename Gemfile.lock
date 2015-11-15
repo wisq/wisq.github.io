@@ -127,3 +127,6 @@ DEPENDENCIES
   s3_website
   time-lord
   yui-compressor
+
+BUNDLED WITH
+   1.10.4
