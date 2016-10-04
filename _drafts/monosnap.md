@@ -126,7 +126,7 @@ And finally, testing it out in Monosnap itself.  Success!  Uploads are now as se
 
 ## What's next?
 
-Obviously, I'm a little sad that I still need to run a proxy to upload images to S3.  Still, this new setup is significantly better than my s3itch proxy was — it's a simple nginx configuration, it runs HTTPS throughout, and it doesn't need to store my S3 credentials on the server.
+Obviously, I'm a little sad that I still need to run a proxy to upload images to S3.  Still, this new setup is significantly better than my s3itch proxy was — it's a simple nginx configuration, it runs HTTPS throughout, it runs on my VPS instead of on my laptop, and it doesn't need to store my S3 credentials on the server.
 
 I'll be reporting this issue to Monosnap as a bug, and referencing this post.  I'm hoping they'll either switch to using just `s3.amazonaws.com/bucketname`, or tweak their SSL client to correctly verify against the `*.s3.amazonaws.com` certificate.
 
