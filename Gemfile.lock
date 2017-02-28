@@ -13,6 +13,12 @@ GIT
     jekyll-tagging (0.6.0)
       ruby-nuggets
 
+GIT
+  remote: git://github.com/wisq/rb-fsevent.git
+  revision: 65d3ea88591dd3fb30d9a6f057b4d7a9495be913
+  specs:
+    rb-fsevent (0.9.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -90,7 +96,6 @@ GEM
     pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
@@ -124,9 +129,10 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-sitemap!
   jekyll-tagging!
+  rb-fsevent!
   s3_website
   time-lord
   yui-compressor
 
 BUNDLED WITH
-   1.10.4
+   1.12.0

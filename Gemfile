@@ -12,5 +12,7 @@ gem 'jekyll-last-modified-at'
 gem 'jekyll-tagging', :github => 'wisq/jekyll-tagging', :ref => '068eb44ed7ab64f9552d104c1eca3863526ec5ae'
 gem 'jekyll-sitemap', :github => 'wisq/jekyll-sitemap', :ref => '12ba411290f666dc886338239600b12ed159300b'
 
+gem 'rb-fsevent', :github => 'wisq/rb-fsevent'
+
 gem 'aws-sdk-v1'
 gem 'time-lord'
