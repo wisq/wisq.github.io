@@ -1,12 +1,12 @@
 GIT
-  remote: git://github.com/wisq/jekyll-sitemap.git
+  remote: https://github.com/wisq/jekyll-sitemap.git
   revision: 12ba411290f666dc886338239600b12ed159300b
   ref: 12ba411290f666dc886338239600b12ed159300b
   specs:
     jekyll-sitemap (0.7.0)
 
 GIT
-  remote: git://github.com/wisq/jekyll-tagging.git
+  remote: https://github.com/wisq/jekyll-tagging.git
   revision: 068eb44ed7ab64f9552d104c1eca3863526ec5ae
   ref: 068eb44ed7ab64f9552d104c1eca3863526ec5ae
   specs:
@@ -14,7 +14,7 @@ GIT
       ruby-nuggets
 
 GIT
-  remote: git://github.com/wisq/rb-fsevent.git
+  remote: https://github.com/wisq/rb-fsevent.git
   revision: 65d3ea88591dd3fb30d9a6f057b4d7a9495be913
   specs:
     rb-fsevent (0.9.8)
@@ -135,4 +135,4 @@ DEPENDENCIES
   yui-compressor
 
 BUNDLED WITH
-   1.12.0
+   1.15.4

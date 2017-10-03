@@ -9,10 +9,10 @@ gem 'yui-compressor'
 gem 'jekyll-minifier'
 
 gem 'jekyll-last-modified-at'
-gem 'jekyll-tagging', :github => 'wisq/jekyll-tagging', :ref => '068eb44ed7ab64f9552d104c1eca3863526ec5ae'
-gem 'jekyll-sitemap', :github => 'wisq/jekyll-sitemap', :ref => '12ba411290f666dc886338239600b12ed159300b'
+gem 'jekyll-tagging', :git => 'https://github.com/wisq/jekyll-tagging.git', :ref => '068eb44ed7ab64f9552d104c1eca3863526ec5ae'
+gem 'jekyll-sitemap', :git => 'https://github.com/wisq/jekyll-sitemap.git', :ref => '12ba411290f666dc886338239600b12ed159300b'
 
-gem 'rb-fsevent', :github => 'wisq/rb-fsevent'
+gem 'rb-fsevent', :git => 'https://github.com/wisq/rb-fsevent.git'
 
 gem 'aws-sdk-v1'
 gem 'time-lord'
