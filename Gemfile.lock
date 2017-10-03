@@ -22,9 +22,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk-v1 (1.61.0)
-      json (~> 1.4)
-      nokogiri (>= 1.4.4)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -36,11 +33,6 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     colorator (0.1)
-    colored (1.2)
-    configure-s3-website (1.6.0)
-      deep_merge (= 1.0.0)
-    deep_merge (1.0.0)
-    dotenv (1.0.2)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
@@ -78,7 +70,6 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.0)
       listen (~> 2.7)
-    json (1.8.2)
     kramdown (1.5.0)
     liquid (2.6.1)
     listen (2.8.4)
@@ -86,9 +77,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    mini_portile (0.6.2)
-    nokogiri (1.6.5)
-      mini_portile (~> 0.6.0)
     nuggets (1.0.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -101,15 +89,8 @@ GEM
     redcarpet (3.2.2)
     ruby-nuggets (1.0.0)
       nuggets (= 1.0.0)
-    s3_website (2.7.3)
-      colored (= 1.2)
-      configure-s3-website (= 1.6.0)
-      dotenv (~> 1.0)
-      thor (~> 0.18)
     safe_yaml (1.0.4)
     sass (3.4.9)
-    thor (0.19.1)
-    time-lord (1.0.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -121,7 +102,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk-v1
   closure-compiler
   jekyll
   jekyll-asset-pipeline
@@ -130,8 +110,6 @@ DEPENDENCIES
   jekyll-sitemap!
   jekyll-tagging!
   rb-fsevent!
-  s3_website
-  time-lord
   yui-compressor
 
 BUNDLED WITH

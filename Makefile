@@ -10,12 +10,6 @@ optimise:
 	find img -name '*.png' -cnewer .optimise-stamp -print0 | xargs -0r optipng -o9 -strip all
 	touch .optimise-stamp
 
-push: build bundle
-	bundle exec s3_website push
-
-force_push: build bundle
-	bundle exec s3_website push --force
-
 serve: bundle
 	bundle exec jekyll serve --drafts
 

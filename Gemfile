@@ -1,7 +1,6 @@
 source 'https://rubygems.org/'
 
 gem 'jekyll'
-gem 's3_website'
 
 gem 'jekyll-asset-pipeline'
 gem 'closure-compiler'
@@ -13,6 +12,3 @@ gem 'jekyll-tagging', :git => 'https://github.com/wisq/jekyll-tagging.git', :ref
 gem 'jekyll-sitemap', :git => 'https://github.com/wisq/jekyll-sitemap.git', :ref => '12ba411290f666dc886338239600b12ed159300b'
 
 gem 'rb-fsevent', :git => 'https://github.com/wisq/rb-fsevent.git'
-
-gem 'aws-sdk-v1'
-gem 'time-lord'
