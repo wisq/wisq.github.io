@@ -1,5 +1,6 @@
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
+s3_endpoint: <%= ENV['S3_REGION'] %>
 s3_bucket: wisq.net
 cloudfront_distribution_id: E207AK80NEVLR9
 
@@ -24,7 +25,6 @@ gzip:
   - .svg
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
-# s3_endpoint: ap-northeast-1
 
 ignore_on_server:
   - assets
